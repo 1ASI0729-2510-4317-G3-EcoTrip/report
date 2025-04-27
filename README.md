@@ -115,11 +115,163 @@ Capítulo IV: Product Design
 
 4.7.1. Class Diagrams.
 
+Se realizo el diagrama de clases
+
+<div align="center">
+  <img src="./images/ClassDiagrams.PNG" alt="ClassDiagrams" width="100%" />
+</div>
+
 4.7.2. Class Dictionary.
 
-4.8. Database Design.
+### 1. User Bounded Context
 
-4.8.1. Database Diagram.
+#### User (Aggregate)
+
+La clase **User** contiene los datos de autenticación y los detalles generales de un usuario en la plataforma (ya sea un viajero o proveedor).
+
+#### Atributos:
+
+- `id: int` – Identificador único del usuario.
+- `name: String` – Nombre completo del usuario.
+- `email: String` – Correo electrónico del usuario, utilizado para el inicio de sesión.
+- `password: String` – Contraseña cifrada del usuario.
+- `preferredLanguage: String` – Idioma preferido del usuario para personalizar la interfaz.
+
+#### Métodos:
+
+- `register()` – Guarda los datos del usuario en la base de datos al momento de registrarse.
+- `login()` – Verifica las credenciales del usuario para autenticarlo.
+- `changeLanguage(language: String)` – Permite cambiar el idioma preferido del usuario.
+
+### 2. Provider Bounded Context
+
+#### Provider (Aggregate)
+
+La clase **Provider** representa a un proveedor de servicios, como un eco-alojamiento o un guía turístico.
+
+#### Atributos:
+
+- `id: int` – Identificador único del proveedor.
+- `name: String` – Nombre del negocio o servicio del proveedor.
+- `type: String` – Tipo de proveedor, como "Lodge" (alojamiento) o "TourGuide" (guía turístico).
+- `isVerified: boolean` – Indica si el proveedor ha sido verificado y aprobado por EcoTrip.
+
+#### Métodos:
+
+- `registerProvider()` – Crea un perfil nuevo para un proveedor en el sistema.
+- `verify()` – Marca al proveedor como verificado para que pueda ofrecer sus servicios.
+
+### Guide (Entidad, hereda de Provider)
+
+La clase **Guide** representa a un guía turístico certificado.
+
+#### Atributos:
+
+- `languages: List<String>` – Idiomas que habla el guía (por ejemplo, ["Español", "Inglés"]).
+- `specialty: String` – Especialidad del guía, como "Fauna" o "Patrimonio Cultural".
+- `isAvailable: boolean` – Disponibilidad actual del guía para aceptar nuevas reservas.
+
+#### Métodos:
+
+- `acceptBooking(bookingId: int)` – Confirma la reserva realizada por un usuario.
+
+### 3. Experience Bounded Context
+
+#### Experience (Agregado)
+
+La clase **Experience** representa una actividad de turismo sostenible que puede ser reservada por los usuarios.
+
+#### Atributos:
+
+- `id: int` – Identificador único de la experiencia.
+- `name: String` – Nombre de la actividad (por ejemplo, "Caminata por la selva").
+- `price: float` – Precio por persona para la experiencia.
+- `maxCapacity: int` – Número máximo de participantes permitidos.
+- `type: String` – Tipo de experiencia, como "Aventura" o "Cultural".
+
+#### Métodos:
+
+- `book(user: User)` – Crea una nueva reserva para un usuario.
+- `updatePrice(newPrice: float)` – Permite actualizar el precio de la experiencia.
+
+#### Location (Objeto de Valor)
+
+La clase **Location** describe los detalles geográficos de una experiencia.
+
+#### Atributos:
+
+- `city: String` – Ciudad más cercana a la experiencia.
+- `country: String` – País en el que se realiza la experiencia.
+- `coordinates: String` – Coordenadas geográficas (latitud/longitud) del lugar.
+
+#### Métodos:
+
+- `getCoordinates():String` – Devolver las coordenadas
+
+#### Itinerary (Agregado)
+
+La clase **Itinerary** representa el itinerario de un viaje, que incluye una lista de experiencias que el usuario ha planeado realizar.
+
+#### Atributos:
+
+- `id: int` – Identificador único del itinerario.
+- `name: String` – Nombre del itinerario (por ejemplo, "Aventura en la Selva").
+- `startDate: Date` – Fecha de inicio del itinerario.
+- `endDate: Date` – Fecha de finalización del itinerario.
+- `budget: float` – Presupuesto total disponible para el itinerario.
+- `experiences: List<Experience>` – Lista de experiencias reservadas para este itinerario.
+
+#### Métodos:
+
+- `addExperience(experience: Experience)` – Añade una nueva experiencia al itinerario.
+- `removeExperience(experienceId: int)` – Elimina una experiencia del itinerario dado su identificador.
+- `generateRecommendations()` – Genera una lista de experiencias recomendadas basadas en el itinerario.
+- `calculateTotalCost()` – Calcula el costo total del itinerario, sumando los precios de todas las experiencias asociadas.
+
+### 4. Booking Bounded Context
+
+#### Booking (Agregado)
+
+La clase **Booking** representa una reserva confirmada realizada por un usuario para una experiencia.
+
+#### Atributos:
+
+- `id: int` – Identificador único de la reserva.
+- `status: String` – Estado de la reserva, que puede ser "Confirmada" o "Cancelada".
+- `totalAmount: float` – Monto total de la reserva, incluyendo cualquier tarifa adicional.
+
+#### Métodos:
+
+- `cancel()` – Aplica la política de cancelación para realizar reembolsos según las reglas establecidas.
+
+#### CancellationPolicy (Objeto de Valor)
+
+La clase **CancellationPolicy** define las reglas para la cancelación de reservas.
+
+#### Atributos:
+
+- `maxCancellationDays: int` – El número máximo de días antes de la fecha de la experiencia para cancelar y obtener un reembolso completo.
+- `refundPercentage: float` – Porcentaje de reembolso disponible si la cancelación se realiza después del período permitido.
+
+### 5. Review Bounded Context
+
+#### Review (Entidad)
+
+La clase **Review** permite a los usuarios dejar comentarios y calificaciones sobre una experiencia.
+
+#### Atributos:
+
+- `environmentalScore: int` – Calificación de sostenibilidad de la experiencia (de 1 a 5).
+- `culturalScore: int` – Calificación del impacto cultural de la experiencia.
+- `comment: String` – Comentario escrito por el usuario sobre la experiencia.
+
+#### Métodos:
+
+- `calculateFinalScore()` – Calcula la calificación final promediando todas las puntuaciones recibidas (sostenibilidad, impacto cultural, etc.).
+
+  4.8. Database Design.
+
+  4.8.1. Database Diagram.
 
 Capítulo V: Product Implementation, Validation & Deployment
 
@@ -164,8 +316,6 @@ Capítulo V: Product Implementation, Validation & Deployment
 5.3.3. Evaluaciones según heurísticas.
 
 5.4. Video About-the-Product.
-
-
 
 Conclusiones
 Conclusiones y recomendaciones.
