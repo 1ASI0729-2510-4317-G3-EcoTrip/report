@@ -661,10 +661,13 @@ Capítulo IV: Product Design
 4.6. Domain-Driven Software Architecture.
 
 4.6.1. Software Architecture Context Diagram.
+![Imagen de WhatsApp 2025-04-27 a las 14 23 48_971d7066](https://github.com/user-attachments/assets/aef8ef28-da8c-492e-9f5e-6b5aad9dc802)
 
 4.6.2. Software Architecture Container Diagrams.
+![Imagen de WhatsApp 2025-04-27 a las 14 23 48_f1ec3a19](https://github.com/user-attachments/assets/74b45dc0-0c8a-4415-9b82-17624a2e1f20)
 
 4.6.3. Software Architecture Components Diagrams.
+![Imagen de WhatsApp 2025-04-27 a las 14 23 49_9f86f7ce](https://github.com/user-attachments/assets/86029121-9067-4dbb-abb5-2a32e33089f2)
 
 4.7. Software Object-Oriented Design.
 
