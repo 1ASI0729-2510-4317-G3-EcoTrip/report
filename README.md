@@ -240,6 +240,10 @@ Capítulo V: Product Implementation, Validation & Deployment
 
 5.4. Video About-the-Product.
 
+Link al video:
+
+https://upcedupe-my.sharepoint.com/personal/u202211706_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202211706%5Fupc%5Fedu%5Fpe%2FDocuments%2F20250427%5F185524000%5FiOS%2EMOV&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E03da9d66%2D62b6%2D48a2%2Da9cd%2D676c9d9294f2
+
 
 
 Conclusiones
