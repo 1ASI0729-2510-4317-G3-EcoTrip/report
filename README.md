@@ -117,7 +117,23 @@ Capítulo IV: Product Design
 
 4.3.1. Landing Page Wireframe.
 
+<img src="images/wireframe1.JPG">
+<img src="images/wf2.JPG">
+<img src="images/wf3.JPG">
+<img src="images/wf4.JPG">
+
+<br>
+
 4.3.2. Landing Page Mock-up.
+
+A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del programa. 
+
+<img src="images/portada.JPG">
+<img src="images/booking.JPG">
+<img src="images/destinos.JPG">
+<img src="images/paquetes.JPG">
+<img src="images/reviews.JPG">
+<img src="images/footer.JPG">
 
 4.4. Web Applications UX/UI Design.
 
