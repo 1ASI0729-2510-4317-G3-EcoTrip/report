@@ -2,17 +2,17 @@
 
 ### Universidad Peruana de ciencias Aplicadas
 
-<img src ="img/UPC_logo_transparente.png">
+<img src ="images/UPC_logo_transparente.png">
 
 ### Ingeniería de Software
 
-### 4374 - Aplicaciones Web
+### 4317 - Desarrollo de Aplicaciones Open Source
 
 ### Docente: Alberto Wilmer Sanchez Seña
 
 ### "Informe de Trabajo Final"
 
-### Startup: BoomNova<br>
+### Startup: OpenSauce<br>
 
 ### Producto: EcoTrip<br>
 
@@ -88,8 +88,8 @@ OpenSauce es un startup con enfoque en el mercado turístico, ofrecemos otras op
 
 | Integrante                               |              Foto               |                                                                                                                                                                                                lo que aporta al equipo |
 | :--------------------------------------- | :-----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Romina Tuesta Marin (u202211706)         | ![foto-Romina](img/Romina.jpeg) | Soy estudiante de la carrera de ingenieria de software, considero que soy de gran aporte a mi equipo ya que se facilitar la comunicación dentro del equipo, además me gusta ayudar y siempre entregar un buen trabajo. |
-| Gonza Morales Anderson (u202120836)      |   ![foto-](img/Anderson.PNG)    |  Soy estudiante de la carrera de Ingeniería de Software, considero que soy una persona con mucha curiosidad y comprometido en apoyar a mis compañeros.                                                                                                                                                               Soy estudiante de la carrera de Ingeniería de Software |
+| Romina Tuesta Marin (u202211706)         | ![foto-Romina](images/Romina.jpeg) | Soy estudiante de la carrera de ingenieria de software, considero que soy de gran aporte a mi equipo ya que se facilitar la comunicación dentro del equipo, además me gusta ayudar y siempre entregar un buen trabajo. |
+| Gonza Morales Anderson (u202120836)      |   ![foto-](images/Anderson.PNG)    |  Soy estudiante de la carrera de Ingeniería de Software, considero que soy una persona con mucha curiosidad y comprometido en apoyar a mis compañeros.                                                                                                                                                               Soy estudiante de la carrera de Ingeniería de Software |
 | Acosta Elera Abraam Bernabe (U202219199) |              ![]()              |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
 | Mio Mejia Andy Alejandro ()              |            ![foto]()            |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
 | Ramos Aguirre Aldair ()                  |            ![foto]()            |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
@@ -987,21 +987,21 @@ El diseño de la Landing Page fue creado con base en los principios de usabilida
 
 4.3.1. Landing Page Wireframe.
 
-<img src="image/wireframe1.JPG">
-<img src="image/wf2.JPG">
-<img src="image/wf3.JPG">
-<img src="image/wf4.JPG">
+<img src="images/wireframe1.JPG">
+<img src="images/wf2.JPG">
+<img src="images/wf3.JPG">
+<img src="images/wf4.JPG">
 
 4.3.2. Landing Page Mock-up.
 
 A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del programa.
 
-<img src="image/portada.JPG">
-<img src="image/booking.JPG">
-<img src="image/destinos.JPG">
-<img src="image/paquetes.JPG">
-<img src="image/reviews.JPG">
-<img src="image/footer.JPG">
+<img src="images/portada.JPG">
+<img src="images/booking.JPG">
+<img src="images/destinos.JPG">
+<img src="images/paquetes.JPG">
+<img src="images/reviews.JPG">
+<img src="images/footer.JPG">
 
 4.4. Web Applications UX/UI Design.
 
@@ -1433,7 +1433,7 @@ https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/EpDYxq6l
 5.4. Video About-the-Product.
 
 Evidencia de video:
-![video about the product](image/about-product.JPG)
+![video about the product](images/about-product.JPG)
 
 Video subido en Microsoft:
 
