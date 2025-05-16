@@ -10,12 +10,12 @@ OpenSauce es un startup con enfoque en el mercado turístico, ofrecemos otras op
 
 1.1.2. Perfiles de integrantes del equipo
 
-
 1.2. Solution Profile
 
 1.2.1 Antecedentes y problemática
 
 #### Descripción de la problemática
+
 EcoTrip es una plataforma digital orientada al sector del ecoturismo que busca conectar a viajeros con experiencias turísticas responsables, sostenibles y auténticas.Nuestro objetivo es promover destinos que respeten el medio ambiente y beneficien a las comunidades locales.
 
 1.2.2 Lean UX Process.
@@ -76,14 +76,11 @@ Aplicación de fácil uso con una interfaz simple e intuitiva. -La aplicación s
 User Assumptions
 Los ecoturistas buscan experiencias que afecten de manera directa a las comunidades. -Los usuarios buscan una experiencia de búsqueda fácil y sencilla. -Los ecoturistas están dispuestos a pagar más siempre que se verifique que contribuimos a la a sostenibilidad de estas experiencias. -Los ecoturistas buscan experiencias distintas a las convencionales. -Los ecoturistas buscan tener un impacto positivo a los destinos que visitaron.
 
-
 1.2.2.3. Lean UX Hypothesis Statements.
 
 Creemos que si les ofrecemos a los turistas eco amigables una plataforma que los conecte directamente con guías y negocios locales que están comprometidos con la sostenibilidad más turistas utilizaran nuestro producto para planificar sus viajes. -Creemos que los negocios y guías locales sostenibles quieren aumentar su clientela, si creamos un espacio donde puedan ofrecer sus servicios y productos más negocios se registran a la plataforma. -Creemos que los ecoturistas -Creemos que los ecoturistas valoran el impacto de sus decisiones de viaje. Si ofrecemos información sobre cómo las experiencias apoyan a las comunidades y al medio ambiente, entonces los usuarios confiarán más en BoomNova. -Creemos que los usuarios prefieren plataformas fáciles de usar y que puedan confiar en ellas. Si diseñamos una experiencia de usuario intuitiva y con testimonios con resultados positivos, entonces aumentaremos el número de reservas en la plataforma.
 
 1.2.2.4. Lean UX Canvas.
-
-
 
 1.3. Segmentos objetivo.
 
@@ -135,7 +132,7 @@ Capítulo II: Requirements Elicitation & Analysis
     <td valign="top">Visit.org</td>
   </tr>
   <tr>
-    <td valign="top"><img src="./images/ecotrip.png" alt="Logo de EcoTrip" height="90px"></td>
+    <td valign="top"><img src="./images/LogoEcoTrip.PNG" alt="Logo de EcoTrip" height="90px"></td>
     <td valign="top"><img src="./images/airbnb.png" alt="Logo de Airbnb" height="90px"></td>
     <td valign="top"><img src="./images/gyg.png" alt="Logo de GetYourGuide" height="100px"></td>
     <td valign="top"><img src="./images/visit.png" alt="Logo de Visit.org" height="100px"></td>
@@ -229,15 +226,23 @@ Las estrategias de EcoTrip frente a sus competidores son:
 
 - Evaluación sostenible verificada: A diferencia de Airbnb o Lokafy, todas las experiencias en EcoTrip pasarán por una validación basada en criterios ambientales, sociales y culturales.
 
+  - Tactica: Incluir testimonios de turistas responsables para reforzar la credibilidad de las experiencias.
+
 - Asistencia personalizada con itinerarios inteligentes: Una herramienta gratuita para armar viajes a medida y un servicio premium para optimizar experiencias según presupuesto, tiempo e impacto.
+
+  - Tactica: Desarrollar una herramienta digital(intinerario) gratuita (AppWeb) donde el usuario ingrese intereses de experiencias, tiempo y presupuesto.
 
 - Servicio multilingüe y culturalmente contextualizado: Conexión entre turistas y guías que no solo hablen su idioma, sino que comprendan sus referencias culturales.
 
+  - Tactica: Incluir en la plataforma una opción para solicitar un guía que entienda ciertos valores o estilos de viaje
+
 - Modelo inclusivo para proveedores pequeños: Plan freemium para que guías y comunidades puedan tener presencia en la plataforma sin costo inicial.
 
-  2.2. Entrevistas.
+  - Tactica: Ofrecer un plan gratuito con acceso básico a la plataforma, ideal para comunidades rurales o nuevos emprendimientos.
 
-  2.2.1. Diseño de entrevistas.
+    2.2. Entrevistas.
+
+    2.2.1. Diseño de entrevistas.
 
 **Turistas Responsables**
 
@@ -254,7 +259,7 @@ Las estrategias de EcoTrip frente a sus competidores son:
 
 - ¿Cuáles han sido tus principales frustraciones al buscar experiencias de viaje más auténticas o sostenibles?
 
-- ¿Qué dispositivos usas normalmente para organizar tus viajes? (Laptop, smartphone, tablet)
+- ¿Qué te haría confiar en una plataforma de turismo sostenible?
 
 **Proveedores Sostenibles**
 
@@ -286,7 +291,9 @@ Ocupación: Programador freelance
 
 Residencia: Lima, Perú
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EdIFRKsWsE5NkDlJaW2rn24BLqDtL3K0gaUY9ADINi2FhQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fkm3lW
+Duracion: 8:42
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EdIFRKsWsE5NkDlJaW2rn24BLqDtL3K0gaUY9ADINi2FhQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Fkm3lW)
 
 <div align="center">
   <img src="./images/Salvador.PNG" alt="img-entrevista" width="100%" />
@@ -308,7 +315,9 @@ Ocupación: Estudiante de Ingeniería Ambiental
 
 Residencia: Lima, Perú
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/Ecn81ZUtC0lIkv0iftk907QBCUFv5cW5h4287FDTk1YFZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rXdblg
+Duracion: 6:12
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/Ecn81ZUtC0lIkv0iftk907QBCUFv5cW5h4287FDTk1YFZg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rXdblg)
 
 <div align="center">
   <img src="./images/Marcos.PNG" alt="img-entrevista" width="100%" />
@@ -330,7 +339,9 @@ Ocupación: Estudiante de Administración de Empresas
 
 Residencia: Lima, Perú
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EeFNDUDzBBxHk-pqT2t1R4kBIZztjxTs9ATdjn360LJ90g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yI1daS
+Duracion: 5:24
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EeFNDUDzBBxHk-pqT2t1R4kBIZztjxTs9ATdjn360LJ90g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yI1daS)
 
 <div align="center">
   <img src="./images/Oscar.PNG" alt="img-entrevista" width="100%" />
@@ -352,7 +363,9 @@ Rol: Propietario de un ecohostal en Oxapampa
 
 Tipo: Emprendimiento ecológico privado
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EVwxh00o199Mt8Xyh5limHABwAnrKvxi8nO9BWHetalSrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Oa3bhT
+Duracion: 4:54
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EVwxh00o199Mt8Xyh5limHABwAnrKvxi8nO9BWHetalSrA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Oa3bhT)
 
 <div align="center">
   <img src="./images/Joaquin.PNG" alt="img-entrevista" width="100%" />
@@ -374,7 +387,9 @@ Rol: Coordinadora de programas de conservación en una ONG ambiental en Tarapoto
 
 Tipo: Organización sin fines de lucro
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EUwfonQnWXVLoY9hKMP6mxMBNzYCQ68ym8faLh5DOd50xA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Z8aIda
+Duracion: 3:47
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EUwfonQnWXVLoY9hKMP6mxMBNzYCQ68ym8faLh5DOd50xA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Z8aIda)
 
 <div align="center">
   <img src="./images/Lizeth.PNG" alt="img-entrevista" width="100%" />
@@ -396,7 +411,9 @@ Rol: Líder joven de una comunidad que ofrece caminatas con guías locales en Cu
 
 Tipo: Comunidad rural
 
-**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EUdLuGiA06VDpBGteTFbhyIB_9ZJuZgivAOjZQ8Jj0vthA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6TbLRD
+Duracion: 2:42
+
+[**Link de la entrevista**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202120836_upc_edu_pe/EUdLuGiA06VDpBGteTFbhyIB_9ZJuZgivAOjZQ8Jj0vthA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6TbLRD)
 
 <div align="center">
   <img src="./images/Luis.PNG" alt="img-entrevista" width="100%" />
@@ -454,69 +471,111 @@ Canales de promoción: Todos utilizan plataformas digitales como Instagram, Airb
 
 Desafíos comunes: El 100% enfrenta dificultades para competir con grandes operadores turísticos y lograr visibilidad en plataformas digitales.​
 
-2.3. Needfinding.
+## <a name="need-finding"></a> 2.3. Needfinding
 
 Con el propósito de desarrollar una app que satisfaga las necesidades particulares de los usuarios, Ecotrip llevará a cabo la identificación del User persona, User Task Matrix, User Journey Maps y Empathy Mapping.
 
-2.3.1. User Personas.
+### <a name="user-personas"></a> 2.3.1. User Personas
 
 Para esta sección se han creado personajes ficticios, cada uno diseñado para representar a un segmento específico de usuarios. La información utilizada para desarrollar estos "User personas" proviene de entrevistas previas realizadas a cada segmento objetivo. Estas entrevistas tenían como objetivo comprender mejor a las personas a las que se dirige la aplicación. Se consideraron datos demográficos, metas, motivaciones, frustraciones, marcas relacionadas con el tema de la aplicación, canales digitales más utilizados, entre otros. La creación de esta sección se llevó a cabo utilizando la plataforma UXPressia.
 
-- **Segmento objetivo: Programador Freelance y Turista**
+- **Segmento objetivo: Turista responsable**
 
-![User Persona: Salvador](images/SalvadorSalinas.png)
+![User Persona: Maria Fernandez](images/Maria.png)
 
-2.3.2. User Task Matrix.
+- **Segmento objetivo: Proveedor turístico sostenible**
 
-En esta sección se presenta el user task matrix, herramienta centrada en los segmentos objetivos, que nos permitirá identificar las tareas y objetivos claves de los usuarios. Además, nos permitirá priorizar características y funcionalidades al momento de realizar el product backlog. Para la frecuencia se han considerado cinco opciones:nunca ,casi nunca, a veces, a menudo ,siempre; y para la importancia tres opciones: bajo, medio, alto". En relación con la matriz de tareas de los usuarios, podemos identificar tanto las tareas de mayor frecuencia como las de mayor importancia, así como las diferencias y similitudes entre los diferentes tipos de usuarios.
+![User Persona: Pedro Rios](images/Pedro-Rios.png)
 
-<table><tr><th rowspan="2" valign="top"><b><i>User task Matrix</i></b></th><th colspan="2" valign="top"><b><i>Salvador Salinas</i></b></th><th colspan="2" valign="top"><p><b><i>xxxxxxxxxx</i></b> </p><p><b><i></i></b></p></th></tr>
-<tr><td valign="top"><b><i>Frecuencia</i></b> </td><td valign="top"><b><i>Importancia</i></b></td><td valign="top"><b><i>Frecuencia</i></b> </td><td valign="top"><b><i>Importancia</i></b></td></tr>
-<tr><td>Registrarse</td><td><b><i>Una vez</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Una vez</i></b></td><td><b><i>Alta</i></b></td></tr>
-<tr><td>Iniciar sesión</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
-<tr><td>Buscar tours</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
-<tr><td>Reservar tours</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
-<tr><td>Crear reseñas/comentarios</td><td><b><i>Siempre</i></b></td><td><b><i>Media</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Media</i></b></td></tr>
-<tr><td>Editar perfil</td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Alta</i></b></td></tr>
-<tr><td>Guardar tours favoritos</td><td><b><i>Siempre</i></b></td><td><b><i>Medio</i></b></td><td><b><i>Siempre</i></b></td><td><b><i>Medio</i></b></td></tr>
-<tr><td>Recibir recomendaciones personalizadas</td><td><b><i>A veces</i></b></td><td><b><i>Baja</i></b></td><td><b><i>Casi nunca</i></b></td><td><b><i>Baja</i></b></td></tr>
+### <a name="user-task-matrix"></a> 2.3.2. User Task Matrix
+
+En esta sección se presenta el User Task Matrix, una herramienta centrada en nuestros dos segmentos objetivos principales: el Turista Responsable y el Proveedor Turístico Sostenible. Esta matriz permite identificar y comparar las tareas clave que cada usuario realiza o espera realizar en la plataforma.
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <tr>
+    <th><b><i>User Task Matrix</i></b></th>
+    <th><b><i>Lucía (Turista Responsable)</i></b></th>
+    <th><b><i>Pedro (Proveedor Turístico)</i></b></th>
+  </tr>
+  <tr>
+    <td>Buscar experiencias sostenibles</td>
+    <td style="text-align: center;"><i>Alta</i></td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+  </tr>
+  <tr>
+    <td>Filtrar experiencias por ubicación/interés</td>
+    <td style="text-align: center;"><i>Alta</i></td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+  </tr>
+  <tr>
+    <td>Ver perfil y calificaciones del proveedor</td>
+    <td style="text-align: center;"><i>Media</i></td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+  </tr>
+  <tr>
+    <td>Reservar una experiencia</td>
+    <td style="text-align: center;"><i>Alta</i></td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+  </tr>
+  <tr>
+    <td>Crear y publicar una experiencia</td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+    <td style="text-align: center;"><i>Alta</i></td>
+  </tr>
+  <tr>
+    <td>Gestionar reservas recibidas</td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+    <td style="text-align: center;"><i>Alta</i></td>
+  </tr>
+  <tr>
+    <td>Recibir pagos por experiencias</td>
+    <td style="text-align: center;"><i>No aplica</i></td>
+    <td style="text-align: center;"><i>Alta</i></td>
+  </tr>
+  <tr>
+    <td>Editar información de su perfil</td>
+    <td style="text-align: center;"><i>Media</i></td>
+    <td style="text-align: center;"><i>Media</i></td>
+  </tr>
+  <tr>
+    <td>Chatear con otros usuarios</td>
+    <td style="text-align: center;"><i>Media</i></td>
+    <td style="text-align: center;"><i>Media</i></td>
+  </tr>
+  <tr>
+    <td>Calificar experiencias</td>
+    <td style="text-align: center;"><i>Alta</i></td>
+    <td style="text-align: center;"><i>Baja</i></td>
+  </tr>
+  <tr>
+    <td>Acceder a soporte o ayuda</td>
+    <td style="text-align: center;"><i>Media</i></td>
+    <td style="text-align: center;"><i>Media</i></td>
+  </tr>
 </table>
 
-**Para los Turistas Frecuentes, las tareas más importantes y recurrentes incluyen:**
+Esta clasificación facilita la priorización de características durante la construcción del Product Backlog, asegurando que se enfoquen primero las funcionalidades más relevantes para cada tipo de usuario. Además, el análisis comparativo permite visualizar las similitudes, diferencias, y oportunidades entre ambos perfiles.
 
-- Buscar y reservar tours: Son actividades clave que definen su experiencia continua en la plataforma, por lo tanto tienen una frecuencia alta y una importancia alta.
-- Guardar tours favoritos: Les permite planificar y comparar opciones, mejorando la experiencia personalizada.
-- Recibir recomendaciones personalizadas: Es fundamental para facilitarles nuevas experiencias alineadas con sus intereses, por eso es tanto frecuente como valiosa.
-- Iniciar sesión y editar perfil: Aunque rutinarias, son necesarias para una navegación fluida.
-
-**Por otro lado, para los Turistas Ocasionales, las tareas más relevantes son:**
-
-- Registrarse e iniciar sesión: Aunque menos frecuentes, son esenciales para acceder a cualquier funcionalidad dentro de la plataforma.
-- Reservar tours: A pesar de ser usada ocasionalmente, tiene una alta importancia cuando ocurre.
-- Buscar tours: Se realiza con menos frecuencia, pero es clave en su momento de decisión.
-
-Ambos tipos de turistas comparten el interés por reservar tours y acceder al contenido básico, pero las funcionalidades como recomendaciones o guardar favoritos son significativamente más relevantes para los usuarios frecuentes. Esto refleja las diferentes necesidades y comportamientos entre quienes usan la plataforma esporádicamente frente a quienes la integran en su estilo de vida viajero.
-
-2.3.3. User Journey Mapping.
+### <a name="user-journey-mapping"></a> 2.3.3. User Journey Mapping
 
 En esta sección, se describen en detalle los User Journey Mapping para dos perfiles distintos de usuarios de la plataforma de turismo responsable: los Turistas Ocasionales y los Turistas Frecuentes. Estos mapas proporcionan una visión integral del recorrido que cada tipo de usuario realiza dentro del sistema, desde el primer contacto con la plataforma hasta su uso habitual y su interacción continua con las funcionalidades ofrecidas. Se destacan las etapas clave, las emociones y necesidades específicas de cada usuario, para asegurar una comprensión clara de su experiencia global.
 
-_Para Turistas Ocasionales_
+_Para Turista Responsable_
 
-- El recorrido del Turista Ocasional comienza generalmente por la búsqueda de opciones de viaje de manera espontánea, motivado por una necesidad puntual de escapar de la rutina o aprovechar una oportunidad (vacaciones, feriados, etc.). Su primer contacto con la plataforma suele ser a través de búsquedas orgánicas o recomendaciones de terceros.
+- El recorrido de Lucía comienza motivado por su interés en descubrir experiencias sostenibles, auténticas y respetuosas con el entorno local. Su primer contacto con la plataforma suele darse a través de búsquedas en Google, recomendaciones de amigos o redes sociales.
 
-- Una vez dentro, realiza el registro para poder acceder a contenido completo y proceder con la reserva de un tour. La experiencia debe ser intuitiva y sin fricción, ya que este tipo de usuario no está habituado a navegar frecuentemente por plataformas de este tipo.
-- Después de su experiencia en el tour, puede dejar una reseña ocasional, aunque en muchos casos no vuelve a usar la plataforma a corto plazo, a menos que se generen recordatorios o recomendaciones personalizadas en el futuro.
+- Una vez en la plataforma, explora experiencias disponibles, filtra por destino e impacto ambiental, y se registra para poder reservar. Lucía valora una navegación clara y confiable, con información transparente sobre sostenibilidad, seguridad y beneficios locales.
+- Tras reservar y vivir la experiencia, suele dejar una reseña, evaluar al proveedor y, si su experiencia fue positiva, volver a utilizar la plataforma en futuros viajes. También le interesa guardar tours y recibir recomendaciones personalizadas según sus intereses.
 
-_Para Turistas Frecuentes_
+_Para Proveedor Turístico Sostenible_
 
-- El Turista Frecuente tiene un comportamiento más estratégico y constante. Su viaje inicia incluso antes del registro, con una exploración activa de opciones, muchas veces comparando múltiples experiencias de turismo responsable.
-- Este usuario se registra con la intención de aprovechar funcionalidades avanzadas como guardar tours favoritos, recibir recomendaciones personalizadas, y gestionar múltiples reservas. Navega regularmente la plataforma, mantiene actualizado su perfil, y deja reseñas de sus experiencias, valorando la posibilidad de interactuar con la comunidad y contribuir a la mejora de los servicios ofrecidos.
-- Su viaje es cíclico: busca, compara, reserva, evalúa, y repite. A lo largo del tiempo, se convierte en un embajador de la marca, recomendando la plataforma a otros viajeros y contribuyendo activamente a la mejora de los contenidos.
+- El viaje de Pedro inicia cuando busca una forma de dar visibilidad a sus experiencias locales sin intermediarios tradicionales. Descubre la plataforma a través de un correo de invitación, recomendación de otro proveedor o una publicación en redes profesionales.
+- Se registra y configura su perfil de proveedor. Publica sus experiencias detallando impacto social, logístico y ambiental. Necesita un panel sencillo para subir fotos, definir precios y gestionar reservas.
+- Una vez que los turistas comienzan a reservar, Pedro gestiona la disponibilidad, responde consultas y organiza la logística. Después del tour, revisa las reseñas y ajusta su oferta según los comentarios. Busca construir una reputación confiable, ya que esto influye directamente en su visibilidad dentro de la plataforma.
 
-Tanto los Turistas Ocasionales como los Turistas Frecuentes comparten el deseo de acceder a experiencias significativas y auténticas de turismo responsable. Sin embargo, sus interacciones con la plataforma difieren en profundidad y frecuencia.
+Aunque tienen objetivos distintos, ambos comparten una motivación común: participar activamente en un turismo más consciente, auténtico y sostenible. Sus recorridos reflejan roles complementarios dentro del ecosistema de la plataforma.
 
-- #### _Turistas Ocasionales_
+- #### _Turista Responsable_
 
   | Etapa                    | Acción del usuario (Turista ocasional)       | Emoción      | Canal               | Oportunidad de mejora                          |
   | ------------------------ | -------------------------------------------- | ------------ | ------------------- | ---------------------------------------------- |
@@ -527,58 +586,59 @@ Tanto los Turistas Ocasionales como los Turistas Frecuentes comparten el deseo d
   | Participación en el tour | Asiste a la actividad                        | Entusiasmo   | Presencial          | Recordatorios y checklist antes del tour       |
   | Post-experiencia         | Puede dejar una reseña o no                  | Desconexión  | Email, web          | Incentivar feedback con recompensas            |
 
-- #### _Turistas Frecuentes_
+- #### _Proveedor Turístico Sostenible_
+  | Etapa            | Acción del usuario (Turista frecuente)                             | Emoción                           | Canal                             | Oportunidad de mejora                                      |
+  | ---------------- | ------------------------------------------------------------------ | --------------------------------- | --------------------------------- | ---------------------------------------------------------- |
+  | Descubrimiento   | Conoce la plataforma a través de otros guías, redes o invitaciones | EntusCuriosidad, escepticismoasmo | Facebook, WhatsApp, web           | Campañas de captación con testimonios de otros proveedores |
+  | Registro         | Se registra como proveedor, completa perfil y verifica identidad   | Motivación, dudas técnicas        | Formulario, email de verificación | Proceso guiado, soporte en línea, validación rápida        |
+  | Publicación      | Crea y publica una experiencia con fotos, texto y precio           | Creatividad, expectativa          | Dashboard proveedor               | Asistente de publicación, plantillas prediseñadas          |
+  | Gestión          | Recibe reservas, responde dudas, organiza logística del tour       | Organización, estrés              | Panel de reservas, mensajería     | Sistema de alertas, app móvil para gestión rápida          |
+  | Entrega del tour | Da la experiencia presencialmente                                  | Entusiasmo                        | WhatsApp, en persona              | Confirmación previa, herramientas de check-in              |
+  | Retención        | Publica nuevas experiencias, busca subir su reputación             | Motivación, compromiso            | Email, plataforma                 | Enviar reportes de desempeño, sugerencias automáticas      |
 
-  | Etapa                    | Acción del usuario (Turista frecuente)    | Emoción     | Canal             | Oportunidad de mejora                   |
-  | ------------------------ | ----------------------------------------- | ----------- | ----------------- | --------------------------------------- |
-  | Descubrimiento           | Visita frecuente para buscar nuevos tours | Entusiasmo  | App, web          | Notificaciones personalizadas           |
-  | Registro                 | Ya registrado                             | Confianza   | Web/App           | Acceso rápido con login automático      |
-  | Exploración              | Usa filtros, compara, guarda favoritos    | Seguridad   | App, navegador    | Mostrar experiencias similares          |
-  | Reserva                  | Reserva múltiples tours                   | Expectativa | Plataforma        | Ofrecer paquetes personalizados         |
-  | Participación en el tour | Asiste a las actividades                  | Entusiasmo  | Presencial        | Opciones de compartir en redes sociales |
-  | Post-experiencia         | Deja reseña y comparte experiencia        | Compromiso  | Web, email, redes | Programa de fidelización o referidos    |
+### <a name="empathy-mapping"></a> 2.3.4. Empathy Mapping
 
-  2.3.4. Empathy Mapping.
+En esta sección se presenta el Empathy Mapping, una herramienta esencial para construir perfiles detallados de los dos principales user personas de la plataforma: Lucía, Turista Responsable, y Pedro, Proveedor Turístico Sostenible.
 
-En esta sección se aborda el Empathy Mapping, una herramienta esencial para elaborar perfiles detallados de los user personas y profundizar en la comprensión de su perspectiva y experiencia. Cada user persona se analiza a través de cinco elementos cruciales: lo que el usuario ve, escucha,dice, hace y siente. Además, se identifican los problemas (pains) y beneficios (gains) de acuerdo con una serie de preguntas estratégicas:¿Qué preocupaciones o desafíos enfrenta el usuario en su trabajo diario?¿Qué mejoras o soluciones podrían resolver los problemas identificados?¿Qué argumentos podrían persuadir al usuario de que nuestra solución es la mejor opción para satisfacer sus necesidades profesionales?
+El objetivo es comprender de forma profunda sus pensamientos, emociones, comportamientos y motivaciones al interactuar con la plataforma. Para ello, se analiza lo que cada usuario ve, oye, dice, hace y siente, además de identificar sus dolores (pains) y beneficios esperados (gains).
 
-En esta sección se aborda el Empathy Mapping, una herramienta esencial para construir perfiles detallados de los user personas y profundizar en la comprensión de su perspectiva y experiencia durante la interacción con la plataforma. Este análisis se ha estructurado considerando cinco elementos clave: lo que el usuario ve, escucha, dice, hace y siente, además de identificar los problemas (pains) y beneficios (gains) que marcan su recorrido y necesidades.
+Este ejercicio permite empatizar con sus contextos reales, facilitando el diseño de funcionalidades centradas en las verdaderas necesidades de cada segmento.
 
-- **Segmento: Turistas Frecuentes**
+- **Segmento: Turista Responsable**
 
-| Etapa                | Registro                            | Búsqueda de tours                      | Reserva                               | Experiencia del tour                        | Revisión y seguimiento                     |
-| -------------------- | ----------------------------------- | -------------------------------------- | ------------------------------------- | ------------------------------------------- | ------------------------------------------ |
-| **User goals**       | Acceder rápidamente a su cuenta     | Encontrar experiencias únicas y nuevas | Reservar sin repetir datos            | Tener un servicio ágil y profesional        | Dejar feedback o repetir experiencia       |
-| **Touchpoints**      | Login con Google/Facebook           | Filtros avanzados, tours recomendados  | Perfil guardado con datos precargados | Confirmaciones automáticas, asistencia 24/7 | Correo de agradecimiento, link a favoritos |
-| **Customer Thought** | “Ya tengo cuenta, quiero entrar ya” | “¿Hay algo nuevo o diferente?”         | “¿Puedo reservar en 2 clics?”         | “¿Tendré soporte si algo falla?”            | “¿Vale la pena repetir o recomendar?”      |
-| **Experience**       | 😄 Rápida y eficiente               | 🙂 Curiosa y motivada                  | 😄 Satisfactoria                      | 😄 Profesional y sin contratiempos          | 😄 Positiva y leal                         |
-| **Ideas/Opps**       | Recordar sesión automáticamente     | Notificaciones de nuevos tours         | Botón de reserva rápida               | Chatbot o número de contacto directo        | Programa de recompensas o referidos        |
+| Etapa                | Registro                           | Búsqueda de tours                           | Reserva                                   | Experiencia del tour                 | Revisión y seguimiento                   |
+| -------------------- | ---------------------------------- | ------------------------------------------- | ----------------------------------------- | ------------------------------------ | ---------------------------------------- |
+| **User goals**       | Acceder sin complicaciones         | Encontrar opciones auténticas y sostenibles | Reservar sin repetir pasos                | Vivir una experiencia local única    | Compartir su experiencia y evaluar       |
+| **Touchpoints**      | Formulario simple, login social    | Buscador con filtros y etiquetas            | Pasarela intuitiva, historial de reservas | Confirmaciones, contacto con guía    | Email post-tour, botón para dejar reseña |
+| **Customer Thought** | “Quiero empezar sin perder tiempo” | “¿Qué lugares realmente valen la pena?”     | “¿Mi pago está protegido?”                | “¿Será como lo prometieron?”         | “¿Cómo ayudo a otros viajeros como yo?”  |
+| **Experience**       | 🙂 Fluida y amigable               | 🙂 Interesante y consciente                 | 😄 Confiable y directa                    | 😄 Auténtica y enriquecedora         | 😄 Gratificante y útil                   |
+| **Ideas/Opps**       | Autocompletar desde Gmail          | Etiquetas como ‘eco-friendly’, ‘local’      | Pago en un clic con billetera digital     | Asistente virtual para dudas rápidas | Recompensa por dejar reseñas             |
 
-- **Segmento: Turistas Ocasionales**
+- **Segmento: Proveedor Turístico Sostenible**
 
-| Etapa                | Registro                        | Búsqueda de tours                              | Reserva                              | Experiencia del tour                  | Revisión y seguimiento          |
-| -------------------- | ------------------------------- | ---------------------------------------------- | ------------------------------------ | ------------------------------------- | ------------------------------- |
-| **User goals**       | Crear cuenta fácilmente         | Encontrar un tour accesible sin mucho esfuerzo | Reservar rápido y sin complicaciones | Tener una experiencia guiada y clara  | Confirmar que todo salió bien   |
-| **Touchpoints**      | Registro con email o Google     | Tours destacados, búsqueda sencilla            | Pasarela de pago clara y guiada      | Instrucciones por correo/WhatsApp     | Enlace a reseña, agradecimiento |
-| **Customer Thought** | “¿Esto es fácil o toma tiempo?” | “¿Este tour vale la pena?”                     | “¿Es seguro pagar aquí?”             | “¿Sabré a dónde ir y qué hacer?”      | “¿Debo dejar una opinión?”      |
-| **Experience**       | 🙂 Intuitiva                    | 😐 Un poco indecisa                            | 🙂 Clara y sin estrés                | 🙂 Cómoda y bien organizada           | 🙂 Positiva, pero breve         |
-| **Ideas/Opps**       | Acceso simplificado o invitado  | Mostrar reseñas visibles y puntuación          | Asistente visual durante la reserva  | Alertas automáticas y contacto rápido | Incentivo por dejar reseña      |
+| Etapa                | Registro                             | Publicación de tour                  | Gestión de reservas                   | Ejecución del tour                      | Evaluación y continuidad                  |
+| -------------------- | ------------------------------------ | ------------------------------------ | ------------------------------------- | --------------------------------------- | ----------------------------------------- |
+| **User goals**       | Registrar su oferta fácilmente       | Describir su tour de forma atractiva | Organizar sin errores ni olvidos      | Dar una experiencia memorable y segura  | Recibir feedback, mejorar y seguir activo |
+| **Touchpoints**      | Registro con ayuda paso a paso       | Panel con plantilla de tours         | Calendario, notificaciones, chat      | Checklist del día, contacto con turista | Plataforma de evaluación, estadísticas    |
+| **Customer Thought** | “¿Será complicado llenar todo esto?” | “¿Mi tour llama la atención?”        | “¿Todo está confirmado y claro?”      | “¿Los turistas estarán satisfechos?”    | “¿Estoy creciendo en la plataforma?”      |
+| **Experience**       | 🙂 Simple y bien guiada              | 🙂 Creativa pero necesita apoyo      | 🙂 Organizada y clara                 | 😄 Profesional y con buen feedback      | 😄 Motivadora y constructiva              |
+| **Ideas/Opps**       | Tutorial interactivo                 | Asistente para redacción atractiva   | App móvil para gestión en tiempo real | Confirmación de llegada del turista     | Tips automáticos para mejorar perfil      |
 
-2.3.5. As-is Scenario Mapping.
+### <a name="as-is"></a> 2.3.5. As-is Scenario Mapping
 
-En esta sección se presenta el As-is Scenario Mapping para cada uno de los segmentos de usuarios identificados: Turistas Frecuentes y Turistas Ocasionales. Este análisis tiene como objetivo visualizar cómo interactúan actualmente estos usuarios con plataformas digitales para planificar y reservar experiencias de viaje, y así detectar puntos de mejora, frustraciones y oportunidades no exploradas.
+En esta sección se presenta el As-Is Scenario Mapping para cada uno de los segmentos objetivos identificados: Turista Responsable y Proveedor Turístico Sostenible. Este análisis tiene como objetivo visualizar cómo estos usuarios interactúan actualmente con plataformas digitales al planificar, ofrecer o reservar experiencias de viaje, y así detectar oportunidades de mejora, frustraciones comunes y necesidades no cubiertas.
 
-El proceso contempla las siguientes fases clave: Descubrimiento, Evaluación, Reserva, Experiencia y Seguimiento. En cada una se destacan tanto los aspectos positivos como negativos vividos por los usuarios, así como las áreas en las que aún se requiere mayor investigación.
+Para este mapeo se han considerado cinco fases clave del recorrido del usuario: Descubrimiento, Evaluación, Reserva, Experiencia y Seguimiento. En cada etapa se identifican acciones típicas, aspectos positivos, dificultades experimentadas y oportunidades que pueden guiar el diseño de funcionalidades relevantes para nuestra plataforma de turismo responsable.
 
-_As-is Scenario mapping: Turistas Frecuentes_
+El análisis se basa en entrevistas y observaciones realizadas durante la fase de investigación, complementadas con supuestos validados por referencias externas, permitiendo entender el contexto actual y orientar decisiones estratégicas centradas en el usuario.
 
-![As-Is: frecuentes](images/As-is_ScenarioMapping1.png)
+_As-is Scenario mapping: Turista Responsable_
 
-_As-is Scenario mapping: Turistas Ocasionales_
+![As-Is: frecuentes](images/Scenario-Mapping1.png)
 
-![As-Is: frecuentes](images/As-is_ScenarioMapping2.png)
+_As-is Scenario mapping: Proveedor Turístico Sostenible_
 
-2.4. Ubiquitous Language.
+![As-Is: frecuentes](images/Scenario-Mapping2.png)
 
 Capítulo III: Requirements Specification
 
@@ -600,25 +660,24 @@ Capítulo III: Requirements Specification
 
 3.4. Product Backlog.
 
-
-|ID | Título | Prioridad | Descripción|
-|--------------|--------------|--------------|--------------|
-|US-01 | Ver lista de experiencias sostenibles | Alta | Como turista ocasional quiero ver una lista de experiencias para explorar qué ofrece EcoTrip.|
-|US-01.1 | Filtrar experiencias por tipo | Alta | Como turista frecuente quiero filtrar experiencias por tipo para encontrar lo que me interesa.|
-|US-02 | Registro de proveedores | Alta | Como proveedor quiero registrarme para ofrecer mis servicios turísticos sostenibles.|
-|US-02.1 | Aprobación de proveedor | Alta | Como administrador quiero revisar y aprobar solicitudes de proveedores.|
-|US-03 | Crear plan de viaje personalizado | Media | Como turista frecuente quiero armar mi propio itinerario con actividades y hospedajes.|
-|US-03.1 | Sugerencias de itinerario basadas en intereses | Media | Como turista ocasional quiero recibir sugerencias de actividades según mi perfil.|
-|US-04 | Conexión con guías turísticos | Alta | Como turista frecuente quiero contactar guías que hablen mi idioma.|
-|US-04.1 | Reservar guía específico | Media | Como turista ocasional quiero poder reservar a un guía en específico.|
-|US-05 | Reservar y pagar experiencias | Alta | Como turista frecuente quiero reservar y pagar actividades de manera fácil.|
-|US-05.1 | Cancelar reserva y recibir reembolso | Media | Como turista ocasional quiero cancelar mi reserva si no podré asistir.|
-|US-06 | Página informativa sobre EcoTrip | Media | Como visitante quiero saber qué es EcoTrip y qué servicios ofrece.|
-|US-06.1 | Ver testimonios de otros viajeros | Baja | Como visitante quiero leer opiniones para confiar en la plataforma.|
-|US-07 | Gestión del portafolio de proveedores | Alta | Como proveedor quiero agregar, editar o eliminar mis experiencias.|
-|US-08 | Mejorar visibilidad de proveedores | Media | Como proveedor quiero mostrar mis calificaciones y reseñas públicas.|
-|US-09 | Registro y validación fácil para proveedores | Alta | Como proveedor quiero un proceso de registro rápido y sencillo.|
-|US-10 | Recibir pagos seguros como proveedor | Alta | Como proveedor quiero recibir mis pagos de manera segura y poder ver mi historial.|
+| ID      | Título                                         | Prioridad | Descripción                                                                                    |
+| ------- | ---------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
+| US-01   | Ver lista de experiencias sostenibles          | Alta      | Como turista ocasional quiero ver una lista de experiencias para explorar qué ofrece EcoTrip.  |
+| US-01.1 | Filtrar experiencias por tipo                  | Alta      | Como turista frecuente quiero filtrar experiencias por tipo para encontrar lo que me interesa. |
+| US-02   | Registro de proveedores                        | Alta      | Como proveedor quiero registrarme para ofrecer mis servicios turísticos sostenibles.           |
+| US-02.1 | Aprobación de proveedor                        | Alta      | Como administrador quiero revisar y aprobar solicitudes de proveedores.                        |
+| US-03   | Crear plan de viaje personalizado              | Media     | Como turista frecuente quiero armar mi propio itinerario con actividades y hospedajes.         |
+| US-03.1 | Sugerencias de itinerario basadas en intereses | Media     | Como turista ocasional quiero recibir sugerencias de actividades según mi perfil.              |
+| US-04   | Conexión con guías turísticos                  | Alta      | Como turista frecuente quiero contactar guías que hablen mi idioma.                            |
+| US-04.1 | Reservar guía específico                       | Media     | Como turista ocasional quiero poder reservar a un guía en específico.                          |
+| US-05   | Reservar y pagar experiencias                  | Alta      | Como turista frecuente quiero reservar y pagar actividades de manera fácil.                    |
+| US-05.1 | Cancelar reserva y recibir reembolso           | Media     | Como turista ocasional quiero cancelar mi reserva si no podré asistir.                         |
+| US-06   | Página informativa sobre EcoTrip               | Media     | Como visitante quiero saber qué es EcoTrip y qué servicios ofrece.                             |
+| US-06.1 | Ver testimonios de otros viajeros              | Baja      | Como visitante quiero leer opiniones para confiar en la plataforma.                            |
+| US-07   | Gestión del portafolio de proveedores          | Alta      | Como proveedor quiero agregar, editar o eliminar mis experiencias.                             |
+| US-08   | Mejorar visibilidad de proveedores             | Media     | Como proveedor quiero mostrar mis calificaciones y reseñas públicas.                           |
+| US-09   | Registro y validación fácil para proveedores   | Alta      | Como proveedor quiero un proceso de registro rápido y sencillo.                                |
+| US-10   | Recibir pagos seguros como proveedor           | Alta      | Como proveedor quiero recibir mis pagos de manera segura y poder ver mi historial.             |
 
 Capítulo IV: Product Design
 
