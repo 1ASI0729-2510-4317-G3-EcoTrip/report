@@ -644,40 +644,96 @@ Capítulo III: Requirements Specification
 
 3.1. To-Be Scenario Mapping.
 
+En esta sección se presenta el _To-Be Scenario Mapping_ para cada uno de los segmentos de usuarios identificados: **Turistas Responsables** y **Proveedores Turísticos Sostenibles**. Este análisis tiene como objetivo visualizar cómo se transformaría la experiencia de estos usuarios al utilizar **EcoTrip**, una plataforma digital enfocada en la planificación y reserva de experiencias de viaje sostenibles.
+
+A través del uso de EcoTrip, se busca mejorar los puntos de dolor detectados en el As-Is Scenario Mapping, ofreciendo una experiencia más intuitiva, informada y alineada con valores de responsabilidad ambiental y sostenibilidad. El mapeo considera los cambios clave que esta nueva solución podría aportar en términos de comportamiento, pensamiento y emociones de los usuarios.
+
+El proceso de elaboración del To-Be Scenario Mapping siguió las siguientes etapas:
+
+- **Preparación:** Revisión de los insights obtenidos del As-Is Scenario Mapping.
+- **Lluvia de ideas individual:** Identificación de posibles soluciones y mejoras centradas en el usuario.
+- **Revisión e identificación de fases:** Se mantuvieron las mismas fases empleadas en el análisis As-Is para asegurar comparabilidad.
+- **Comparación con el As-Is:** Se contrastó con el escenario actual para identificar mejoras concretas, tanto funcionales como emocionales.
+
+Las fases consideradas en este análisis son: **Descubrimiento, Evaluación, Reserva, Experiencia y Seguimiento.**
+
+#### To-Be Scenario Mapping – Turistas Responsables
+
+![To-Be Scenario Mapping](https://firebasestorage.googleapis.com/v0/b/abraam-66aa7.appspot.com/o/tobe1.jpg?alt=media&token=16534694-15c3-4cf9-aedd-6f7f3e9d7fe4)
+
+#### To-Be Scenario Mapping – Proveedores Turísticos Sostenibles
+
+![To-Be Scenario Mapping](https://firebasestorage.googleapis.com/v0/b/abraam-66aa7.appspot.com/o/tobe2.jpg?alt=media&token=da5d1a75-1f37-4e5e-abe0-e0b945fdbc1c)
+
 3.2. User Stories.
+
+En esta sección se presentan las User Stories desarrolladas para el proyecto EcoTrip, una plataforma digital orientada al turismo sostenible. Las historias están elaboradas en base a los perfiles identificados en el To-Be Scenario Mapping: Turistas Frecuentes y Turistas Ocasionales.
+
+Cada historia refleja una necesidad concreta de los usuarios y está asociada a una funcionalidad clave del sistema. Asimismo, se incluyen los criterios de aceptación formulados en formato Gherkin, con tres escenarios por historia, lo cual permite validar de manera precisa y completa si una funcionalidad cumple con los requisitos del usuario. Esta estructura facilita la planificación ágil del desarrollo y asegura el alineamiento entre el equipo de diseño, desarrollo y las expectativas de los usuarios.
+
+Epics:
+
+| **Epic ID** | **Título**                 | **Descripción**                                                                                                                               | **Segmento Objetivo**              |
+| ----------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| EP-01       | Explorar experiencias      | Como turista responsable, quiero ver experiencias sostenibles para saber qué ofrece EcoTrip.                                                  | Turistas responsables              |
+| EP-02       | Registro de proveedores    | Como proveedor turístico sostenible, quiero registrarme para ofrecer mis servicios turísticos en la plataforma.                               | Proveedores turísticos sostenibles |
+| EP-03       | Crear plan                 | Como turista responsable, quiero crear mi propio plan de viaje con actividades y hospedajes sostenibles.                                      | Turistas responsables              |
+| EP-04       | Conexión con guías         | Como turista responsable, quiero contactar guías que hablen mi idioma para enriquecer mi experiencia.                                         | Turistas responsables              |
+| EP-05       | Reservas y pagos           | Como turista responsable, quiero reservar experiencias y pagar fácilmente para confirmar mi participación.                                    | Turistas responsables              |
+| EP-06       | Página informativa         | Como turista responsable, quiero saber qué es EcoTrip y qué servicios ofrece para decidir si usar la plataforma.                              | Turistas responsables              |
+| EP-07       | Gestión de favoritos       | Como turista responsable, quiero poder marcar experiencias como favoritas para consultarlas después.                                          | Turistas responsables              |
+| EP-08       | Validación de formularios  | Como proveedor turístico sostenible, quiero que todos los formularios tengan validación para evitar errores en el registro o actualizaciones. | Proveedores turísticos sostenibles |
+| EP-09       | Notificaciones visuales    | Como usuario (turista o proveedor), quiero recibir mensajes visuales para saber qué acciones fueron exitosas o fallidas.                      | Ambos segmentos                    |
+| EP-10       | Personalización del perfil | Como usuario (turista o proveedor), quiero personalizar mi perfil con datos e intereses para mejorar mi experiencia en la plataforma.         | Ambos segmentos                    |
+| EP-11       | Accesibilidad y UX         | Como usuario (turista o proveedor), quiero que el sitio sea accesible y cómodo para navegar en cualquier dispositivo.                         | Ambos segmentos                    |
+
+User Stories:
+
+| **User Story ID** | **Título**                       | **Descripción (Segmento Objetivo)**                                                                                 | **Criterios de Aceptación (Gherkin)**                                                                                                                                                                                                                                                                                                                                                                                                    | **Relacionado con (Epic ID)** |
+| ----------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| US-01             | Filtrar experiencias             | Como turista responsable, quiero filtrar por tipo de experiencia para encontrar lo que me interesa.                 | **Escenario 1:**<br>**Given** que estoy viendo las experiencias<br>**When** selecciono “Voluntariado”<br>**Then** solo se muestran experiencias de voluntariado.<br>**Escenario 2:**<br>**Given** que ya he filtrado<br>**When** regreso a la lista<br>**Then** el filtro se mantiene aplicado.<br>**Escenario 3:**<br>**Given** que selecciono varios tipos<br>**When** aplico los filtros<br>**Then** se actualiza la lista combinada. | EP-01                         |
+| US-02             | Aprobación de proveedor          | Como administrador, quiero revisar los datos del proveedor turístico sostenible para aprobar o rechazar su ingreso. | **Escenario 1:**<br>**Given** que hay una solicitud nueva<br>**When** reviso los documentos<br>**Then** puedo aprobarla.<br>**Escenario 2:**<br>**Given** que detecto errores<br>**When** rechazo la solicitud<br>**Then** puedo escribir una razón y notificar.<br>**Escenario 3:**<br>**Given** que apruebo<br>**When** finalizo el proceso<br>**Then** se actualiza a “Proveedor Activo”.                                             | EP-02                         |
+| US-03             | Recomendaciones para itinerario  | Como turista responsable, quiero recibir sugerencias basadas en mis gustos.                                         | **Escenario 1:**<br>**Given** que completé mi perfil<br>**When** ingreso a recomendaciones<br>**Then** veo actividades sugeridas.<br>**Escenario 2:**<br>**Given** que no me gustan<br>**When** marco “No me interesa”<br>**Then** se actualiza la lista.<br>**Escenario 3:**<br>**Given** que acepto<br>**When** agrego al itinerario<br>**Then** aparece en mi plan.                                                                   | EP-03                         |
+| US-04             | Reservar guía específico         | Como turista responsable, quiero reservar a un guía específico que hable mi idioma.                                 | **Escenario 1:**<br>**Given** que encontré un guía<br>**When** elijo una fecha<br>**Then** hago la reserva.<br>**Escenario 2:**<br>**Given** que reservé<br>**When** reviso mi perfil<br>**Then** veo el historial.<br>**Escenario 3:**<br>**Given** que el guía confirma<br>**When** recibo el correo<br>**Then** veo detalles del encuentro.                                                                                           | EP-04                         |
+| US-05             | Cancelar reserva                 | Como turista responsable, quiero cancelar una reserva si no puedo asistir.                                          | **Escenario 1:**<br>**Given** que tengo una reserva<br>**When** accedo a ella<br>**Then** veo la opción cancelar.<br>**Escenario 2:**<br>**Given** que cancelo a tiempo<br>**When** aplico la acción<br>**Then** recibo reembolso.<br>**Escenario 3:**<br>**Given** que se cancela<br>**When** reviso correo<br>**Then** veo confirmación.                                                                                               | EP-05                         |
+| US-06             | Ver testimonios                  | Como turista responsable, quiero leer opiniones de otros para confiar en la plataforma.                             | **Escenario 1:**<br>**Given** que entro a testimonios<br>**When** veo las opiniones<br>**Then** muestran nombre, experiencia y calificación.<br>**Escenario 2:**<br>**Given** que busco algo específico<br>**When** uso filtro<br>**Then** veo testimonios relevantes.<br>**Escenario 3:**<br>**Given** que leo un testimonio<br>**When** me parece útil<br>**Then** puedo marcarlo como “útil”.                                         | EP-06                         |
+| US-07             | Marcar experiencia como favorita | Como turista responsable, quiero marcar experiencias como favoritas para guardarlas y verlas luego.                 | **Escenario 1:**<br>**Given** que veo una experiencia<br>**When** hago clic en corazón<br>**Then** se guarda como favorita.<br>**Escenario 2:**<br>**Given** que estoy en mi perfil<br>**When** entro a favoritos<br>**Then** veo lista guardada.<br>**Escenario 3:**<br>**Given** que quito una experiencia<br>**When** hago clic otra vez<br>**Then** se elimina de favoritos.                                                         | EP-07                         |
+| US-08             | Validar campos obligatorios      | Como proveedor turístico sostenible, quiero validaciones en los formularios para no enviar datos incompletos.       | **Escenario 1:**<br>**Given** que lleno un formulario<br>**When** dejo un campo vacío<br>**Then** veo error.<br>**Escenario 2:**<br>**Given** que pongo un correo inválido<br>**When** intento enviar<br>**Then** veo advertencia.<br>**Escenario 3:**<br>**Given** que corrijo<br>**When** vuelvo a intentar<br>**Then** se envía correctamente.                                                                                        | EP-08                         |
+| US-09             | Mostrar alertas visuales         | Como usuario (turista o proveedor), quiero ver alertas (toasts) al realizar acciones importantes.                   | **Escenario 1:**<br>**Given** que agrego experiencia<br>**When** confirmo acción<br>**Then** aparece toast de éxito.<br>**Escenario 2:**<br>**Given** que cancelo reserva<br>**When** confirmo cancelación<br>**Then** veo mensaje de confirmación.<br>**Escenario 3:**<br>**Given** que ocurre un error<br>**When** realizo acción<br>**Then** veo mensaje de error.                                                                    | EP-09                         |
+| US-10             | Editar foto de perfil            | Como usuario (turista o proveedor), quiero subir o cambiar mi foto de perfil.                                       | **Escenario 1:**<br>**Given** que estoy en perfil<br>**When** hago clic en “Cambiar foto”<br>**Then** selecciono imagen.<br>**Escenario 2:**<br>**Given** que subo imagen válida<br>**When** guardo<br>**Then** se actualiza foto.<br>**Escenario 3:**<br>**Given** que intento archivo no permitido<br>**When** lo subo<br>**Then** veo error.                                                                                          | EP-10                         |
+| US-11             | Activar modo oscuro              | Como usuario (turista o proveedor), quiero activar modo oscuro para una experiencia visual cómoda.                  | **Escenario 1:**<br>**Given** que estoy en cualquier página<br>**When** activo switch modo oscuro<br>**Then** interfaz cambia.<br>**Escenario 2:**<br>**Given** que cierro sesión<br>**When** vuelvo a ingresar<br>**Then** modo oscuro sigue activo.<br>**Escenario 3:**<br>**Given** que desactivo modo oscuro<br>**When** hago clic en switch<br>**Then** vuelve al modo claro.                                                       | EP-11                         
 
 3.3. Impact Mapping.
 
 #### Mapa de segmento turistas responsable:
 
-<img src= "images/imp.map_1ST.PNG">
-
-<img src= "images/imp.map._2ST.PNG">
+<img src= "images/imp-maria.png">
 
 #### Mapa de segmento proveedores turisticos ecologicos:
-
-<img src= "images/imp.map_3SP.PNG">
+ 
+<img src= "images/imp-pedro.png">
 
 3.4. Product Backlog.
 
-| ID      | Título                                         | Prioridad | Descripción                                                                                    |
-| ------- | ---------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------- |
-| US-01   | Ver lista de experiencias sostenibles          | Alta      | Como turista ocasional quiero ver una lista de experiencias para explorar qué ofrece EcoTrip.  |
-| US-01.1 | Filtrar experiencias por tipo                  | Alta      | Como turista frecuente quiero filtrar experiencias por tipo para encontrar lo que me interesa. |
-| US-02   | Registro de proveedores                        | Alta      | Como proveedor quiero registrarme para ofrecer mis servicios turísticos sostenibles.           |
-| US-02.1 | Aprobación de proveedor                        | Alta      | Como administrador quiero revisar y aprobar solicitudes de proveedores.                        |
-| US-03   | Crear plan de viaje personalizado              | Media     | Como turista frecuente quiero armar mi propio itinerario con actividades y hospedajes.         |
-| US-03.1 | Sugerencias de itinerario basadas en intereses | Media     | Como turista ocasional quiero recibir sugerencias de actividades según mi perfil.              |
-| US-04   | Conexión con guías turísticos                  | Alta      | Como turista frecuente quiero contactar guías que hablen mi idioma.                            |
-| US-04.1 | Reservar guía específico                       | Media     | Como turista ocasional quiero poder reservar a un guía en específico.                          |
-| US-05   | Reservar y pagar experiencias                  | Alta      | Como turista frecuente quiero reservar y pagar actividades de manera fácil.                    |
-| US-05.1 | Cancelar reserva y recibir reembolso           | Media     | Como turista ocasional quiero cancelar mi reserva si no podré asistir.                         |
-| US-06   | Página informativa sobre EcoTrip               | Media     | Como visitante quiero saber qué es EcoTrip y qué servicios ofrece.                             |
-| US-06.1 | Ver testimonios de otros viajeros              | Baja      | Como visitante quiero leer opiniones para confiar en la plataforma.                            |
-| US-07   | Gestión del portafolio de proveedores          | Alta      | Como proveedor quiero agregar, editar o eliminar mis experiencias.                             |
-| US-08   | Mejorar visibilidad de proveedores             | Media     | Como proveedor quiero mostrar mis calificaciones y reseñas públicas.                           |
-| US-09   | Registro y validación fácil para proveedores   | Alta      | Como proveedor quiero un proceso de registro rápido y sencillo.                                |
-| US-10   | Recibir pagos seguros como proveedor           | Alta      | Como proveedor quiero recibir mis pagos de manera segura y poder ver mi historial.             |
+| ID      | Título                                         | Puntaje (2,3,5,8) | Descripción                                                                                    |
+| ------- | ---------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------------- |
+| US-01   | Ver lista de experiencias sostenibles          | 8                 | Como turista ocasional quiero ver una lista de experiencias para explorar qué ofrece EcoTrip.  |
+| US-01.1 | Filtrar experiencias por tipo                  | 8                 | Como turista frecuente quiero filtrar experiencias por tipo para encontrar lo que me interesa. |
+| US-02   | Registro de proveedores                        | 5                 | Como proveedor quiero registrarme para ofrecer mis servicios turísticos sostenibles.           |
+| US-02.1 | Aprobación de proveedor                        | 5                 | Como administrador quiero revisar y aprobar solicitudes de proveedores.                        |
+| US-03   | Crear plan de viaje personalizado              | 5                 | Como turista frecuente quiero armar mi propio itinerario con actividades y hospedajes.         |
+| US-03.1 | Sugerencias de itinerario basadas en intereses | 5                 | Como turista ocasional quiero recibir sugerencias de actividades según mi perfil.              |
+| US-04   | Conexión con guías turísticos                  | 8                 | Como turista frecuente quiero contactar guías que hablen mi idioma.                            |
+| US-04.1 | Reservar guía específico                       | 3                 | Como turista ocasional quiero poder reservar a un guía en específico.                          |
+| US-05   | Reservar y pagar experiencias                  | 5                 | Como turista frecuente quiero reservar y pagar actividades de manera fácil.                    |
+| US-05.1 | Cancelar reserva y recibir reembolso           | 3                 | Como turista ocasional quiero cancelar mi reserva si no podré asistir.                         |
+| US-06   | Página informativa sobre EcoTrip               | 3                 | Como visitante quiero saber qué es EcoTrip y qué servicios ofrece.                             |
+| US-06.1 | Ver testimonios de otros viajeros              | 2                 | Como visitante quiero leer opiniones para confiar en la plataforma.                            |
+| US-07   | Gestión del portafolio de proveedores          | 5                 | Como proveedor quiero agregar, editar o eliminar mis experiencias.                             |
+| US-08   | Mejorar visibilidad de proveedores             | 8                 | Como proveedor quiero mostrar mis calificaciones y reseñas públicas.                           |
+| US-09   | Registro y validación fácil para proveedores   | 5                 | Como proveedor quiero un proceso de registro rápido y sencillo.                                |
+| US-10   | Recibir pagos seguros como proveedor           | 8                 | Como proveedor quiero recibir mis pagos de manera segura y poder ver mi historial.             |
+
 
 Capítulo IV: Product Design
 
