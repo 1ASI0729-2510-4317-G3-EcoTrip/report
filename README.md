@@ -735,160 +735,215 @@ Capítulo IV: Product Design
 Se realizo el diagrama de clases
 
 <div align="center">
-  <img src="./images/ClassDiagrams.PNG" alt="ClassDiagrams" width="100%" />
+  <img src="./images/Class_Diagrams.PNG" alt="ClassDiagrams" width="100%" />
 </div>
 
 4.7.2. Class Dictionary.
 
-### 1. User Bounded Context
+A continuación, se especificara más a detalle sobre cada una de las clases.
 
-#### User (Aggregate)
+## `User` (Entidad)
 
-La clase **User** contiene los datos de autenticación y los detalles generales de un usuario en la plataforma (ya sea un viajero o proveedor).
+Clase base para todos los usuarios del sistema.
 
-#### Atributos:
+### Atributos
 
-- `id: int` – Identificador único del usuario.
-- `name: String` – Nombre completo del usuario.
-- `email: String` – Correo electrónico del usuario, utilizado para el inicio de sesión.
-- `password: String` – Contraseña cifrada del usuario.
-- `preferredLanguage: String` – Idioma preferido del usuario para personalizar la interfaz.
+- `id: int` - Identificador único del usuario
+- `email: String` - Correo electrónico del usuario (credencial de inicio de sesión)
+- `password: String` - Contraseña encriptada
+- `type: UserType {TOURIST, PROVIDER}` - Rol del usuario
 
-#### Métodos:
+### Métodos
 
-- `register()` – Guarda los datos del usuario en la base de datos al momento de registrarse.
-- `login()` – Verifica las credenciales del usuario para autenticarlo.
-- `changeLanguage(language: String)` – Permite cambiar el idioma preferido del usuario.
+- `register()` - Crea una nueva cuenta de usuario
+- `login()` - Autentica las credenciales del usuario
+- `getUser()` - Retorna los datos del perfil del usuario
 
-### 2. Provider Bounded Context
+---
 
-#### Provider (Aggregate)
+## `Tourist` (Entidad)
 
-La clase **Provider** representa a un proveedor de servicios, como un eco-alojamiento o un guía turístico.
+Representa a los viajeros que usan la plataforma.
 
-#### Atributos:
+### Atributos
 
-- `id: int` – Identificador único del proveedor.
-- `name: String` – Nombre del negocio o servicio del proveedor.
-- `type: String` – Tipo de proveedor, como "Lodge" (alojamiento) o "TourGuide" (guía turístico).
-- `isVerified: boolean` – Indica si el proveedor ha sido verificado y aprobado por EcoTrip.
+- `id: int` - Identificador único del turista
+- `name: String` - Nombre completo del turista
 
-#### Métodos:
+### Métodos
 
-- `registerProvider()` – Crea un perfil nuevo para un proveedor en el sistema.
-- `verify()` – Marca al proveedor como verificado para que pueda ofrecer sus servicios.
+- `getTourist()` - Retorna los detalles del turista
+- `updateTourist()` - Modifica la información del perfil
 
-### Guide (Entidad, hereda de Provider)
+---
 
-La clase **Guide** representa a un guía turístico certificado.
+## `Provider` (Entidad)
 
-#### Atributos:
+Clase base para los proveedores de experiencias.
 
-- `languages: List<String>` – Idiomas que habla el guía (por ejemplo, ["Español", "Inglés"]).
-- `specialty: String` – Especialidad del guía, como "Fauna" o "Patrimonio Cultural".
-- `isAvailable: boolean` – Disponibilidad actual del guía para aceptar nuevas reservas.
+### Atributos
 
-#### Métodos:
+- `id: int` - Identificador único del proveedor
+- `name: String` - Nombre del negocio
+- `description: String` - Descripción del proveedor
+- `type: String {Provider, Guide}` - Especialización del proveedor
 
-- `acceptBooking(bookingId: int)` – Confirma la reserva realizada por un usuario.
+### Métodos
 
-### 3. Experience Bounded Context
+- `getProvider()` - Retorna los detalles del proveedor
+- `updateProvider()` - Edita la información del proveedor
+- `getExperiences()` - Lista todas las experiencias ofrecidas
 
-#### Experience (Agregado)
+---
 
-La clase **Experience** representa una actividad de turismo sostenible que puede ser reservada por los usuarios.
+## `Guide` (Entidad)
 
-#### Atributos:
+Proveedor especializado en experiencias guiadas.
 
-- `id: int` – Identificador único de la experiencia.
-- `name: String` – Nombre de la actividad (por ejemplo, "Caminata por la selva").
-- `price: float` – Precio por persona para la experiencia.
-- `maxCapacity: int` – Número máximo de participantes permitidos.
-- `type: String` – Tipo de experiencia, como "Aventura" o "Cultural".
+### Atributos
 
-#### Métodos:
+- `id: int` - Identificador único del guía
+- `languages: List<Language>` - Idiomas hablados por el guía
+- `specialty: String` - Área de especialización (ej. "Vida silvestre", "Historia")
+- `certifications: List<String>` - Certificaciones profesionales
 
-- `book(user: User)` – Crea una nueva reserva para un usuario.
-- `updatePrice(newPrice: float)` – Permite actualizar el precio de la experiencia.
+### Métodos
 
-#### Location (Objeto de Valor)
+- `acceptBooking(bookingId: int)` - Confirma la asignación de una reserva
+- `updateGuide()` - Modifica el perfil del guía
 
-La clase **Location** describe los detalles geográficos de una experiencia.
+---
 
-#### Atributos:
+## `Experience` (Agregado)
 
-- `city: String` – Ciudad más cercana a la experiencia.
-- `country: String` – País en el que se realiza la experiencia.
-- `coordinates: String` – Coordenadas geográficas (latitud/longitud) del lugar.
+Actividad de turismo sostenible reservable.
 
-#### Métodos:
+### Atributos
 
-- `getCoordinates():String` – Devolver las coordenadas
+- `id: int` - Identificador único de la experiencia
+- `name: String` - Nombre de la actividad (ej. "Tour en kayak por el Amazonas")
+- `description: String` - Descripción detallada
+- `price: float` - Costo por participante
+- `rating: float` - Calificación promedio de los usuarios (1-5)
+- `currentAvailability: Availability` - Disponibilidad para reservas
+- `cancellationPolicy: CancellationPolicy` - Reglas de reembolso
 
-#### Itinerary (Agregado)
+### Métodos
 
-La clase **Itinerary** representa el itinerario de un viaje, que incluye una lista de experiencias que el usuario ha planeado realizar.
+- `book(user: Tourist)` - Crea una nueva reserva
+- `updateExperience()` - Modifica los detalles de la actividad
+- `checkAvailability()` - Verifica los espacios disponibles
 
-#### Atributos:
+---
 
-- `id: int` – Identificador único del itinerario.
-- `name: String` – Nombre del itinerario (por ejemplo, "Aventura en la Selva").
-- `startDate: Date` – Fecha de inicio del itinerario.
-- `endDate: Date` – Fecha de finalización del itinerario.
-- `budget: float` – Presupuesto total disponible para el itinerario.
-- `experiences: List<Experience>` – Lista de experiencias reservadas para este itinerario.
+## `Booking` (Agregado)
 
-#### Métodos:
+Reserva confirmada de una experiencia.
 
-- `addExperience(experience: Experience)` – Añade una nueva experiencia al itinerario.
-- `removeExperience(experienceId: int)` – Elimina una experiencia del itinerario dado su identificador.
-- `generateRecommendations()` – Genera una lista de experiencias recomendadas basadas en el itinerario.
-- `calculateTotalCost()` – Calcula el costo total del itinerario, sumando los precios de todas las experiencias asociadas.
+### Atributos
 
-### 4. Booking Bounded Context
+- `id: int` - Identificador único de la reserva
+- `status: BookingStatus` - Estado actual (Pendiente/Confirmada/Cancelada)
+- `payment: Payment` - Detalles de la transacción
 
-#### Booking (Agregado)
+### Métodos
 
-La clase **Booking** representa una reserva confirmada realizada por un usuario para una experiencia.
+- `confirm()` - Finaliza la reserva
+- `cancel()` - Inicia la cancelación
+- `calculateRefund()` - Determina el monto del reembolso
 
-#### Atributos:
+---
 
-- `id: int` – Identificador único de la reserva.
-- `status: String` – Estado de la reserva, que puede ser "Confirmada" o "Cancelada".
-- `totalAmount: float` – Monto total de la reserva, incluyendo cualquier tarifa adicional.
+## `Payment` (Entidad)
 
-#### Métodos:
+Registro de transacción financiera.
 
-- `cancel()` – Aplica la política de cancelación para realizar reembolsos según las reglas establecidas.
+### Atributos
 
-#### CancellationPolicy (Objeto de Valor)
+- `amount: float` - Monto total pagado
+- `fee: float` - Comisión por servicio de la plataforma
+- `paymentMethod: String` - Método de pago (tarjeta, PayPal, etc.)
+- `status: PaymentStatus` - Estado de la transacción
 
-La clase **CancellationPolicy** define las reglas para la cancelación de reservas.
+### Métodos
 
-#### Atributos:
+- `processPayment()` - Ejecuta el pago
 
-- `maxCancellationDays: int` – El número máximo de días antes de la fecha de la experiencia para cancelar y obtener un reembolso completo.
-- `refundPercentage: float` – Porcentaje de reembolso disponible si la cancelación se realiza después del período permitido.
+---
 
-### 5. Review Bounded Context
+## `Itinerary` (Agregado)
 
-#### Review (Entidad)
+Viaje planificado del viajero.
 
-La clase **Review** permite a los usuarios dejar comentarios y calificaciones sobre una experiencia.
+### Atributos
 
-#### Atributos:
+- `name: String` - Título del itinerario
+- `experiences: List<Experience>` - Actividades seleccionadas
 
-- `environmentalScore: int` – Calificación de sostenibilidad de la experiencia (de 1 a 5).
-- `culturalScore: int` – Calificación del impacto cultural de la experiencia.
-- `comment: String` – Comentario escrito por el usuario sobre la experiencia.
+### Métodos
 
-#### Métodos:
+- `addExperience(exp: Experience)` - Incluye una nueva actividad
 
-- `calculateFinalScore()` – Calcula la calificación final promediando todas las puntuaciones recibidas (sostenibilidad, impacto cultural, etc.).
+---
+
+## `Location` (Objeto de Valor)
+
+Coordenadas geográficas.
+
+### Atributos
+
+- `city: String` - Nombre de la ciudad
+- `country: String` - Nombre del país
+- `coordinates: String` - Latitud/Longitud
+
+### Métodos
+
+- `getCoordinates()` - Retorna las coordenadas formateadas
+- `setCoordinates(coords: String)` - Actualiza la ubicación
+
+---
+
+## `CancellationPolicy` (Objeto de Valor)
+
+Reglas de reembolso para reservas.
+
+### Atributos
+
+- `maxCancellationDays: int` - Plazo para cancelación gratuita
+- `refundPercentage: float` - Porcentaje de reembolso parcial
+
+### Métodos
+
+- `canCancel(reservationDate: Date)` - Verifica si se permite la cancelación
+- `getCancellationPolicy()` - Retorna los detalles de la política
+- `updateCancellationPolicy()` - Modifica los términos
+
+---
+
+## `Availability` (Objeto de Valor)
+
+Intervalos de tiempo disponibles para reservas.
+
+### Atributos
+
+- `startDate: Date` - Fecha de inicio de disponibilidad
+- `endDate: Date` - Fecha de fin de disponibilidad
+- `maxParticipants: int` - Límite de capacidad
+
+### Métodos
+
+- `isAvailable(date: Date)` - Verifica la disponibilidad en una fecha
+- `updateAvailability()` - Modifica los periodos de disponibilidad
 
   4.8. Database Design.
 
   4.8.1. Database Diagram.
+
+  A continuación, se muestra el diagrama de la base de datos relacional.
+
+    <div align="center">
+    <img src="./images/Database_Diagram.PNG" alt="DatabaseDiagram" width="100%" />
+  </div>
 
 Capítulo V: Product Implementation, Validation & Deployment
 
