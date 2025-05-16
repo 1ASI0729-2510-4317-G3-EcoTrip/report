@@ -85,6 +85,15 @@ OpenSauce es un startup con enfoque en el mercado turístico, ofrecemos otras op
 
 1.1.2. Perfiles de integrantes del equipo
 
+| Integrante                               |              Foto               |                                                                                                                                                                                                lo que aporta al equipo |
+| :--------------------------------------- | :-----------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Romina Tuesta Marin (u202211706)         | ![foto-Romina](images/Romina.jpeg) | Soy estudiante de la carrera de ingenieria de software, considero que soy de gran aporte a mi equipo ya que se facilitar la comunicación dentro del equipo, además me gusta ayudar y siempre entregar un buen trabajo. |
+| Gonza Morales Anderson (u202120836)      |   ![foto-](images/Anderson.PNG)    |  Soy estudiante de la carrera de Ingeniería de Software, considero que soy una persona con mucha curiosidad y comprometido en apoyar a mis compañeros.                                                                                                                                                               Soy estudiante de la carrera de Ingeniería de Software |
+| Acosta Elera Abraam Bernabe (U202219199) |              ![]()              |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
+| Mio Mejia Andy Alejandro ()              |            ![foto]()            |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
+| Ramos Aguirre Aldair ()                  |            ![foto]()            |                                                                                                                                                                             Soy estudiante de la carrera de Ingeniería |
+
+
 1.2. Solution Profile
 
 1.2.1 Antecedentes y problemática
@@ -1372,7 +1381,8 @@ Espaciado luego de simbolos operadores.
 
 5.1.4. Software Deployment Configuration.
 
-
+<img src="./images/done_trello.JPG"  width="100%" />
+<img src="./images/trello.JPG"  width="100%" />
 
 5.2. Landing Page, Services & Applications Implementation.
 
