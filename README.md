@@ -1,5 +1,80 @@
 # report
 
+### Universidad Peruana de ciencias Aplicadas
+
+<img src ="images/UPC_logo_transparente.png">
+
+### Ingeniería de Software
+
+### 4317 - Desarrollo de Aplicaciones Open Source
+
+### Docente: Alberto Wilmer Sanchez Seña
+
+### "Informe de Trabajo Final"
+
+### Startup: OpenSauce<br>
+
+### Producto: EcoTrip<br>
+
+<div style="display: flex; justify-content: center; font-family: 'Roboto', sans-serif;">
+    <table style="border-collapse: collapse; border: 1px solid #ddd; width: auto; margin: 20px;">
+        <thead>
+            <tr>
+                <th style="border: 1px solid #ddd; padding: 8px;">Nombre</th>
+                <th style="border: 1px solid #ddd; padding: 8px;">Código</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Tuesta Marin Romina</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">U202211706</td>
+            </tr>
+             <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Alex trujillo</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">codigo</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Gonza Morales Anderson</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">u202120836</td>
+            </tr>
+            <tr>
+                <td style="border: 1px solid #ddd; padding: 8px;">Ramos Aguirre Aldair</td>
+                <td style="border: 1px solid #ddd; padding: 8px;">U20201F051</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+### 2025-1<br>
+
+### Tabla de contenidos
+
+### Student Outcome
+
+<table>
+    <thead>
+        <tr>
+            <th>Criterio específico</th>
+            <th>Acciones realizadas</th>
+            <th>Conclusiones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+            <td>Romina Tuesta <br> TB1: Tuve en cuenta en esta ocasión los impactos y necesidades del usuario por medio del impact maping.  <br> TP1: Para el trabajo parcial, el diseño ha sido fundamental, wireframes, wireflows, etc. La landign fue hecha en base a el mock up y será de uso para el futuro desarrollo. <br><br>Abraam Acosta<br> TB1: Participé en el desarrollo de la startup como la elaboracion de los user stories y realicé aportes en la planificación. <br> TP1: Desarrollé mi parte correspondiente del frontend, construí mi apartado funcional y corregí errores en el documento final del reporte. <br><br>Andy Mio<br> TB1: <br> TP1: <br><br>AndersoGonza<br> TB1: Tome la iniciativa para ruinirnos y poder delegar entre todos las tareas correspondientes. <br> TP1: Correccion de las partes del documento, apoye en la decision sobre la elaboracion del frontend. <br><br>Aldair Ramos<br> TB1:Colabore con el desarrollo del lean ux que nos permite centrarnos en la experiencia del usuario <br> TP1:Para el trabajo parcial me enfoque en las correcciones pendientes. <br></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Comunica por escrito con
+efectividad a diferentes rangos
+de audiencia</td>
+            <td>Romina Tuesta <br> TB1: El trabajo en equipo fue importante, ya que pudimos recibir retroalimentación y ayuda por parte de nuestros compañeros <br> TP1: Para cumplir las metas y tiempos, hemos tenido que trabajar colaborativamente, por lo cual hemos asignado tareas a cada uno de los integrantes. <br> <br>Abraam Acosta<br> TB1: Participé en sesiones grupales para definir objetivos y tareas del sprint. <br> TP1: Colaboré planificando tareas, cumplí con mis tareas asignadas en frontend a tiempo y ayudé a revisar errores del documento final para cumplir los objetivos del sprint.<br><br>Andy Mio<br> TB1: <br> TP1: <br><br>Anderson Gonza<br> TB1: Apoye con la distribucion de obejtivos para cada uno de los integrantes, asi mismo entregando mis respectivas tareas asignadas. <br> TP1: Participe en las sesiones grupales para definir las correcciones. Asi como ayude en la correcion del documento tanto mis secciones como las de los compañeros. <br><br>Aldair Ramos<br> TB1:Partícipe de las reuniones para la asignación de responsabilidades. <br> TP1:Cumplí con mis objetivos propuestos para la entrega. </td>
+            <td><br></td>
+        </tr>
+    </tbody>
+</table>
+
 Capítulo I: Introducción
 
 1.1. Startup Profile
@@ -70,10 +145,12 @@ En la actualidad, los turistas eco amigables y conscientes enfrentan dificultade
 
 1.2.2.2. Lean UX Assumptions.
 
-Business Assumptions
+Business Assumptions 
+
 Aplicación de fácil uso con una interfaz simple e intuitiva. -La aplicación será económicamente sostenible gracias a las comisiones por reserva según su tipo de servicio. -Negocios y guías locales interesados en plataformas que les permita conectar con ecoturistas en busca de experiencias únicas. -BoomNova se diferencia de otras plataformas de turismo por su enfoque en apoyar a las comunidades locales. -Existe un mercado de ecoturistas que está dispuesto a pagar más por experiencias eco amigables y auténticas.
 
 User Assumptions
+
 Los ecoturistas buscan experiencias que afecten de manera directa a las comunidades. -Los usuarios buscan una experiencia de búsqueda fácil y sencilla. -Los ecoturistas están dispuestos a pagar más siempre que se verifique que contribuimos a la a sostenibilidad de estas experiencias. -Los ecoturistas buscan experiencias distintas a las convencionales. -Los ecoturistas buscan tener un impacto positivo a los destinos que visitaron.
 
 1.2.2.3. Lean UX Hypothesis Statements.
@@ -683,27 +760,297 @@ Capítulo IV: Product Design
 
 4.1. Style Guidelines.
 
+Con el objetivo de asegurar coherencia visual y comunicacional a lo largo de todos los puntos de contacto con los usuarios, se define una guía de estilo centralizada para el equipo de diseño y desarrollo. Esta guía permitirá mantener una presentación consistente tanto en plataformas web como móviles, alineada con los valores de sostenibilidad, inclusión y responsabilidad promovidos por EcoTrip.
+
 4.1.1. General Style Guidelines.
+
+Aquí se explica las decisiones y referencias visuales sobre conceptos generales básicos como Branding, Typography, Colors y Spacing, así como las dimensiones a adoptar para el tono de comunicación y lenguaje aplicado (Divertido/Serio, Formal/Casual, Respetuoso/Irreverente, Entusiasta/Sereno). Puede tomarse como referencia un Design System existente, sobre el cual se puede realizar adaptaciones.
+
+#### Branding
+
+EcoTrip comunica sostenibilidad, autenticidad y conexión con la naturaleza. Su identidad visual transmite cercanía, confianza y respeto cultural. El logotipo utiliza una tipografía moderna y amigable, evocando caminos y hojas que representan el viaje y la ecología.
+
+#### Typography
+
+Se utilizan fuentes limpias y legibles:
+
+- **Primaria:** _Poppins_ – utilizada para títulos y navegación, aporta modernidad y claridad.
+- **Secundaria:** _Open Sans_ – aplicada en cuerpos de texto, facilita la lectura prolongada.
+
+Ambas fuentes están disponibles en Google Fonts, lo que facilita su integración en entornos web y móviles.
+
+#### Colors
+
+La paleta de colores se inspira en la naturaleza, transmitiendo calma y responsabilidad ambiental:
+
+- **Verde Bosque (#4CAF50):** color principal que representa sostenibilidad y acción responsable.
+- **Verde Lima (#C5E1A5):** secundario, aporta energía y frescura.
+- **Beige Tierra (#FFF8E1):** fondo neutro y cálido, amigable a la vista.
+- **Gris Suave (#757575):** utilizado en textos secundarios o de soporte.
+- **Blanco (#FFFFFF):** proporciona limpieza visual y contraste.
+
+#### Spacing
+
+Se define una escala modular de espaciado basada en múltiplos de 8px (8, 16, 24, 32, etc.), lo cual facilita la organización de layouts consistentes y balanceados visualmente.
+
+#### Tono y Lenguaje
+
+EcoTrip adopta un lenguaje accesible y empático:
+
+- **Tono:** cercano, optimista y comprometido con el usuario.
+- **Lenguaje:**
+  - Entre **casual y respetuoso**, evitando tecnicismos innecesarios.
+  - **Entusiasta**, pero no invasivo.
+  - Inspirador y culturalmente sensible, especialmente en interacciones con comunidades locales.
+
+**Ejemplo de voz:**
+
+- ✅ “¿Listo para vivir una experiencia inolvidable en la selva amazónica?”
+- ❌ “Reserva ya o te lo pierdes.”
+
+---
 
 4.1.2. Web Style Guidelines.
 
+En esta sección se explica e ilustra las decisiones sobre los estándares visuales y de interacción para responsive web interfaces.
+
+#### Diseño Responsive
+
+EcoTrip utiliza un diseño adaptable que se ajusta a distintos dispositivos: computadoras, tablets y smartphones, manteniendo la coherencia visual.
+
+#### Botones
+
+- Forma: redondeados (12px de radio).
+- Colores: uso del verde principal (#4CAF50) con texto blanco.
+- Estados: `hover`, `active` y `disabled` definidos claramente.
+- Iconografía: acompañados de íconos solo cuando añaden significado.
+
+#### Navegación
+
+- Barra superior fija con logo alineado a la izquierda.
+- Enlaces principales: “Explorar”, “Mi Plan”, “Perfil”.
+- Comportamiento: la barra cambia de color ligeramente al hacer scroll.
+
+#### Accesibilidad
+
+- Contraste de color superior a 4.5:1.
+- Tipografía escalable sin romper diseño.
+- Navegación con teclado y etiquetas `aria-label` para elementos interactivos.
+
+#### Animaciones
+
+- Transiciones suaves entre secciones (`0.3s a 0.5s`).
+- Efectos sutiles de entrada y desplazamiento en los elementos clave.
+- Sin uso excesivo de animaciones para no afectar el rendimiento ni distraer al usuario.
+
+#### Sustento de diseño
+
+Se toman como referencia principios del **Material Design** de Google y el sistema de diseño de **Airbnb**, por su enfoque en experiencias culturales, accesibilidad y claridad visual. Además, se adaptan las guías al contexto de turismo sostenible, garantizando:
+
+- **Consistencia** visual entre pantallas.
+- **Escalabilidad** del diseño a nuevas funcionalidades.
+- **Usabilidad** y accesibilidad para todo tipo de usuarios.
+
+---
+
 4.2. Information Architecture.
+
+En esta sección se definen las decisiones de arquitectura de información que dirigen cómo se organizará el contenido en las experiencias web de **EcoTrip**, incluyendo el Landing Page y futuras aplicaciones. El objetivo principal es garantizar que los visitantes y usuarios se adapten de manera intuitiva a la funcionalidad de cada producto, puedan encontrar fácilmente lo que necesitan y logren una navegación fluida y satisfactoria.
+
+Las propuestas de arquitectura están diseñadas siguiendo principios de usabilidad, claridad y accesibilidad, abordando los siguientes componentes:
+
+- **Organization Systems**
+- **Labeling Systems**
+- **SEO Tags and Meta Tags**
+- **Searching Systems**
+- **Navigation Systems**
+
 
 4.2.1. Organization Systems.
 
+Se establecen las siguientes decisiones sobre la organización del contenido:
+
+#### Visual Hierarchy
+
+Se aplicará una **jerarquía visual clara** en todas las páginas, priorizando:
+
+- **Primero:** Secciones principales como "Explorar", "Mi Plan", "Reservas".
+- **Luego:** Subcategorías como tipos de experiencias (Voluntariado, Ecotours, Aventura).
+- **Finalmente:** Información detallada de cada actividad o guía.
+
+El tamaño, color y peso de los elementos gráficos ayudarán a guiar la atención del usuario hacia lo más relevante.
+
+#### Secuencial Organization
+
+En procesos como:
+
+- **Registro de Proveedores**
+- **Creación de Itinerarios Personalizados**
+- **Proceso de Reserva**
+
+Se utilizará una organización **secuencial paso a paso**, facilitando al usuario completar acciones en un orden lógico y guiado.
+
+Ejemplo de pasos en creación de itinerario:
+
+1. Seleccionar actividades.
+2. Escoger hospedaje.
+3. Confirmar transporte.
+4. Guardar y visualizar el plan.
+
+#### Matricial Organization
+
+Para listas de experiencias o actividades disponibles, se aplicará un modelo **matricial**, donde el usuario puede comparar varias opciones al mismo nivel mediante filtros (por precio, popularidad, impacto ambiental, tipo de actividad).
+
+---
+
+#### Esquemas de Categorización
+
+Según el tipo de contenido, se emplearán:
+
+- **Por tópicos:** experiencias agrupadas en categorías como "Aventura", "Cultural", "Voluntariado", "Ecológico".
+- **Según audiencia:** filtrado de experiencias recomendadas para "Turistas Frecuentes" y "Turistas Ocasionales".
+- **Cronológico:** para visualizar actividades próximas a realizarse (eventos en fechas específicas).
+- **Alfabético:** listado de proveedores o guías por nombre, en catálogos extensos.
+
+Estos esquemas permiten un acceso eficiente y adaptado a diferentes formas de búsqueda del usuario.
+
+---
+
 4.2.2. Labeling Systems.
+
+La representación de los datos en la plataforma busca ser clara, intuitiva y evitar confusión. Para ello se establecen las siguientes directrices de etiquetado:
+
+#### Principios de Etiquetado
+
+- Utilizar un **mínimo número de palabras**.
+- Preferir términos **comunes** y **fáciles de comprender**.
+- Mantener **consistencia** en la terminología a lo largo del sitio.
+
+#### Etiquetas principales propuestas
+
+| Área                    | Etiqueta asignada          | Propósito                           |
+| ----------------------- | -------------------------- | ----------------------------------- |
+| Exploración             | "Explorar"                 | Navegar entre experiencias.         |
+| Planificación           | "Mi Plan"                  | Acceso al itinerario personalizado. |
+| Reservas                | "Mis Reservas"             | Historial de reservas confirmadas.  |
+| Registro de Proveedores | "Conviértete en proveedor" | Registro de nuevos servicios.       |
+| Búsqueda                | "Buscar experiencias"      | Entrada de texto para buscar.       |
+| Perfil                  | "Mi Perfil"                | Datos personales del usuario.       |
+
+Además, las etiquetas dentro de los filtros utilizarán palabras clave simples como:
+
+- "Tipo de experiencia"
+- "Duración"
+- "Nivel de impacto ecológico"
+- "Idioma del guía"
+
+Esto facilita al usuario la interpretación inmediata de las opciones disponibles.
+
+---
 
 4.2.3. SEO Tags and Meta Tags
 
+Para optimizar la visibilidad y accesibilidad de EcoTrip en motores de búsqueda, se establecen los siguientes **SEO Tags** y **Meta Tags** que serán implementados tanto en el **Landing Page** como en la **Web Application**:
+
+| Página                           | Title                                            | Meta Description                                                                                | Meta Keywords                                                         | Author         |
+| -------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------- |
+| Landing Page                     | EcoTrip - Vive Experiencias Sostenibles          | Descubre y reserva experiencias de turismo ecológico auténtico alrededor del mundo con EcoTrip. | ecoturismo, turismo sostenible, experiencias eco, viajes responsables | Equipo EcoTrip |
+| Web Application - Home           | EcoTrip App - Tu Viaje Responsable Comienza Aquí | Organiza, personaliza y reserva experiencias sostenibles de forma sencilla y segura.            | crear itinerario ecológico, plan de viaje sostenible, actividades eco | Equipo EcoTrip |
+| Web Application - Perfil Usuario | EcoTrip - Mi Perfil                              | Gestiona tus datos, itinerarios y reservas ecológicas en EcoTrip.                               | perfil usuario EcoTrip, reservas turismo ecológico | Equipo EcoTrip |
+
 4.2.4. Searching Systems.
+
+Para mejorar la capacidad de búsqueda dentro del sitio y aplicación, se implementarán sistemas de búsqueda claros y efectivos.
+
+#### Tipos de búsqueda ofrecidos
+
+- **Búsqueda Global (Header Search Box):**
+
+  - Visible en todas las páginas principales.
+  - Permite buscar experiencias, guías o categorías.
+  - Autocompletado con sugerencias relevantes.
+
+- **Filtros de búsqueda en "Explorar experiencias":**
+
+  - **Tipo de experiencia** (Voluntariado, Ecotour, Aventura, Cultura).
+  - **Duración** (1 día, 2-5 días, +7 días).
+  - **Nivel de impacto ecológico** (Certificado eco, Responsable, Sugerido).
+  - **Ubicación** (continente, país o región).
+  - **Idioma del guía**.
+
+- **Búsqueda específica en el perfil de proveedores:**
+  - Por nombre del proveedor.
+  - Por calificación de usuarios.
+
+#### Presentación de resultados
+
+- **Resultados dinámicos:** a medida que se aplica un filtro o búsqueda, el listado se actualiza en tiempo real.
+- **Organización matricial:** los resultados se mostrarán en tarjetas (cards) que incluyen:
+
+  - Imagen de la experiencia o proveedor.
+  - Nombre y categoría.
+  - Valoración promedio.
+  - Botón de acción (Agregar a plan, Reservar).
+
+- **Resultados ordenables:** por relevancia, precio, valoración o fecha de disponibilidad.
+
+---
 
 4.2.5. Navigation Systems.
 
+La navegación del producto EcoTrip está diseñada para guiar a los usuarios de manera fluida, asegurando que encuentren lo que buscan de manera natural e intuitiva.
+
+#### Principios de navegación
+
+- **Navegación principal fija:** barra superior presente en todo momento, accesible desde cualquier parte de la aplicación.
+- **Accesos rápidos:** a las secciones principales: "Explorar", "Mi Plan", "Reservas", "Perfil".
+- **Navegación progresiva:** acciones importantes (crear itinerario, reservar, contactar guía) se presentan en momentos contextuales apropiados, evitando saturación.
+- **Pistas visuales:** utilización de colores, íconos y estados activos en menús para indicar dónde se encuentra el usuario.
+- **Breadcrumbs:** en procesos secuenciales como la creación de itinerarios, para mostrar al usuario en qué etapa se encuentra.
+
+#### Flujo de navegación en Landing Page
+
+1. El visitante accede a la **Landing Page**.
+2. Puede navegar rápidamente a:
+   - Explorar experiencias
+   - Conocer más sobre EcoTrip
+   - Registrarse como turista o proveedor
+3. Se invita a la acción con CTA claros como **"Empieza tu viaje responsable"**.
+
+#### Flujo de navegación en la Web Application
+
+1. Menú principal con íconos + texto (Inicio, Explorar, Mi Plan, Perfil).
+2. En "Explorar", se filtra experiencias y se agregan al plan.
+3. Desde "Mi Plan", se visualiza el itinerario y se procede a reservar.
+4. En "Perfil", se gestionan datos, historial y configuraciones.
+
+---
+
 4.3. Landing Page UI Design.
+
+En esta sección, el equipo presenta la propuesta de diseño de interfaz de usuario (UI) para la Landing Page de la aplicación. El proceso parte de una introducción que explica cómo se han traducido las decisiones previas en cuanto a diseño visual y arquitectura de la información en una solución coherente, funcional y centrada en el usuario.
+
+La interfaz propuesta busca reflejar los valores centrales del producto, facilitando al mismo tiempo una navegación intuitiva y una experiencia visual atractiva. Las decisiones tomadas en etapas anteriores como la definición del flujo de usuario, la jerarquía de contenidos, y la estructura de navegación se ven reflejadas en este diseño inicial, que actúa como una primera representación tangible de la experiencia digital.
+
+El diseño de la Landing Page fue creado con base en los principios de usabilidad y accesibilidad, cuidando aspectos como el uso del espacio, la paleta de colores, la tipografía y los call to action.
 
 4.3.1. Landing Page Wireframe.
 
+<img src="images/wireframe1.JPG">
+<img src="images/wf2.JPG">
+<img src="images/wf3.JPG">
+<img src="images/wf4.JPG">
+
 4.3.2. Landing Page Mock-up.
+
+A continuación los Mock ups, estos son los modelos de diseño que se utilizarán en la elaboración del landing page y servirá de modelo y base para la elaboración del programa.
+
+<img src="images/portada.JPG">
+<img src="images/booking.JPG">
+<img src="images/destinos.JPG">
+<img src="images/paquetes.JPG">
+<img src="images/reviews.JPG">
+<img src="images/footer.JPG">
 
 4.4. Web Applications UX/UI Design.
 
@@ -951,31 +1298,231 @@ Capítulo V: Product Implementation, Validation & Deployment
 
 5.1.1. Software Development Environment Configuration.
 
+##### Gestion de proyectos:
+
+Utilizamos Whatsapp para delegar actividades y facilitar la comunicacion entre los miembros.
+
+  ##### Diseño UX/UI del producto:
+Utilizamos Miro para la creacion del Lean UX Canvas.
+
+Utilizamos Uxpressia para el desarrollo de los User Peronas, Empathy Maps, Journey Maps e Impact Maps.
+
+Utilizamos Figma para la creacion de wireframes, Wireflows, maquetas de la landing page.
+
+  ##### Desarrollo de Software:
+
+landing Page: se desarrolló utilizando HTML5, CSS y JavaScript.
+
+  ##### Pruebas de Software:
+
+Para las pruebas del landing page usamos las herramientas ofrecidas en el navegador Google.
+
+  ##### Entornos de Desarrollo:
+
+Utilizamos Visual Studio Code como entorno de desarrollo.
+
+  ##### Despliegue de Software:
+
+Para el despliegue usamos GitHub Pages.
+
+  ##### Documentación de Software:
+        
+Para la documentacion usamos Google Docs y GitHub. Google Docs en primera instancia para el desarrollo de la idea y Github para la elaboracion de esta.
+
 5.1.2. Source Code Management.
 
+Para el desarrollo de la idea de nuestra organización se uso Github como repositorio para tener una bitacora de las modificaciones realizadas. 
+
+  #### Organización:
+  
+Github: https://github.com/1ASI0729-2510-4317-G3-EcoTrip/report
+
+
+ Landing Page: https://1asi0730-2510-4374-g5-ecotrip.github.io/Landing-page-ECOTRIP/
+
+  #### Ramas Principales:
+Rama Main: Usamos esta rama para las versiones oficiales.
+
+Rama develop: Usamos esta rama para integrar los avances del equipo.
+
+  #### Ramas Auxiliares:
+Ramas feature: Las usamos para   
+
 5.1.3. Source Code Style Guide & Conventions.
+ ### HTML5
+
+Declarar tipo de documento: Se declara el tipo de documento en la primera linea usando <!DOCTYPE html>
+Usar elementos en minuscula.
+Cierre de elementos.
+Usar nombres atributos en minuscula.
+Siempre especificar dimenciones para las imagenes.
+Citar valores de los atributos.
+
+  ### CSS
+
+Protocolo: uso de del protocolo HTTPS para imagenes, estilos y scripts.
+Uso exclusivo de minusculas.
+Espaciado: tabulaciones suaves con sangría de dos espacios.
+
+  ### JavaScript
+
+Uso de camelCase para el nombrado de variables.
+Uso de camelCase para el nombrado de funciones.
+Espaciado luego de simbolos operadores.
 
 5.1.4. Software Deployment Configuration.
+
+
 
 5.2. Landing Page, Services & Applications Implementation.
 
 5.2.X. Sprint n
 
-5.2.X.1. Sprint Planning n.
+Usamos el repositorio para subir los archivos necesarios para el despliegue de la landing page.
+    
+Subimos los archivos necesarios para la landing page.
+Nos dirigimos a Settings y buscamos la opción Pages, seleccionamos una rama y guardamos.
+Luego de unos minutos Github genera un enlace.
+
+5.2.X.1. Sprint Planning 1.
+
+| **Sprint 1**                       | Sprint n                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                             |
+| **Date**                          | 2025-05-6                                              |
+| **Time**                          | 10:00 AM                                                |
+| **Location**                      | (virtual por google meet)  |
+| **Prepared By**                   | Romina Alejandra Tuesta Marin                              |
+| **Attendees (to planning meeting)** |  Romina Alejandra Tuesta Marin / Acosta Elera Abraam Bernabe / Gonza Morales Anderson/   |
+| **Sprint n – 1 Review Summary**   | No aplica (primer Sprint). |
+| **Sprint n – 1 Retrospective Summary** | No aplica (primer Sprint).|
+
+| **Sprint Goal & User Stories**    |                                                             |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint n Goal**                 | (mplementar el filtrado de experiencias por tipo para mejorar la personalización del contenido.)|
+| **Sprint n Velocity**             | (8 Story Points) |
+| **Sum of Story Points**           | (8) |
+
+
+
+| **Sprint 2**                       | Sprint n                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                             |
+| **Date**                          | 2025-05-10                                                 |
+| **Time**                          | 15:00 pm                                                 |
+| **Location**                      | (virtual por google meet)|
+| **Prepared By**                   | Romina Alejandra Tuesta Marin                             |
+| **Attendees (to planning meeting)** | Romina Alejandra Tuesta Marin / Acosta Elera Abraam Bernabe / Gonza Morales Anderson/  |
+| **Sprint n – 1 Review Summary**   | Funcionalidad de filtros implementada y validada. Usuario puede aplicar múltiples filtros y estos se mantienen al regresar. |
+| **Sprint n – 1 Retrospective Summary** | Se identificó buena colaboración; se propone mejorar tiempos de respuesta en las validaciones. |
+
+| **Sprint Goal & User Stories**    |                                                             |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint n Goal**                 | Crear interfaz y lógica de backend para revisión, aprobación y rechazo de proveedores.|
+| **Sprint n Velocity**             | (10 Story Points) |
+| **Sum of Story Points**           | (10) |
+
+
+| **Sprint 3**                       | Sprint n                                                    |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint Planning Background**    |                                                             |
+| **Date**                          | 2025-05-14                                                 |
+| **Time**                          | 11:00 pm                                                |
+| **Location**                      | Reunión virtual – Zoom|
+| **Prepared By**                   | Romina Alejandra Tuesta Marin                          |
+| **Attendees (to planning meeting)** |  Romina Alejandra Tuesta Marin / Acosta Elera Abraam Bernabe / Gonza Morales Anderson/  |
+| **Sprint n – 1 Review Summary**   | Se completó correctamente la gestión de proveedores. Feedback positivo de administrador sobre notificaciones. |
+| **Sprint n – 1 Retrospective Summary** | Se recomienda automatizar pruebas de validación de formularios. |
+
+| **Sprint Goal & User Stories**    |                                                             |
+|-----------------------------------|-------------------------------------------------------------|
+| **Sprint n Goal**                 | Desarrollar sistema de recomendaciones personalizadas según perfil del turista.|
+| **Sprint n Velocity**             | (13 Story Points) |
+| **Sum of Story Points**           | (13) |
+
 
 5.2.X.2. Aspect Leaders and Collaborators.
 
+| Team Member (Last Name, First Name) | Github Username | Diseño, wireframes landing Leader (L), Collaborator (C) | Desarrollo estatico HTML, CSS, JS Leader (L), Collaborator (C) | Desplegar el servicio Leader (L), Collaborator (C) |
+| ----------------------------------- | --------------- | ------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------- |
+| Romina Alejanda Tuesta Marin        | Romimi1         | (L)                                                     | (L)                                                            | (L)                                                |
+| Ramos Aguirre Aldair                | AldairRam       | (C)                                                     | (C)                                                            | (C)                                                |
+| Jeanpiere Alexander, Trujillo            |       | (C)                                                     | (C)                                                            | (C)                                                |
+| Anderson Gonza Morales              |     Ander-star            | (C)                                                     | (C)                                                            | (C)                                                |
+                                      
+
 5.2.X.3. Sprint Backlog n.
+
+| **User Story** | **Work-Item / Task** |     |          |               |               |             |
+|----------------|----------------------|-----|----------|---------------|---------------|-------------|
+| **Id**         | **Title**            | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US-01          | Filtrar experiencias | T1.1 | Diseño UI de filtros | Crear diseño para seleccionar tipos de experiencias | 3 | Romina  | Done |
+|                |                      | T1.2 | Lógica de filtro | Mostrar solo experiencias del tipo seleccionado | 4 | Anderson | in process |
+|                |                      | T1.3 | Mantener filtros activos | Mantener filtro aplicado al regresar a la lista | 4 | Anderson | in process|
+|                |                      | T1.4 | Filtro múltiple | Permitir seleccionar varios tipos y actualizar resultados | 5 | Romina | done|
+
+| **User Story** | **Work-Item / Task** |     |          |               |               |             |
+|----------------|----------------------|-----|----------|---------------|---------------|-------------|
+| **Id**         | **Title**            | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+| US-02          | Aprobación de proveedor | T2.1 | Vista de revisión | Crear pantalla de revisión de solicitudes de proveedores | 4 | Jeanpier | In-Process |
+|                |                      | T2.2 | Validación de documentos | Habilitar la visualización de documentos | 3 | Aldair | Done |
+
+
+
 
 5.2.X.4. Development Evidence for Sprint Review.
 
+Se desarrollaron los siguientes componentes durante el Sprint:
+
+Frontend:
+
+- Vista de listado de experiencias sostenibles.
+
+- Vista de detalle de destino turístico con descripción, fotos, certificaciones, e impacto.
+
+- Componentes reutilizables para filtros por impacto, tipo y cercanía.
+
+
+Commits relevantes:
+
+chore/ add assets - 1ceb639
+
+Initial commit – 39dd3ae
+
+Repositorio: https://github.com/1ASI0730-2510-4374-G5-EcoTrip/Landing-page ECOTRIP/commit/39dd3aeba0633655d9c70c9272127f2573680176
+
+
 5.2.X.5. Execution Evidence for Sprint Review.
+
+urante la revisión del Sprint se ejecutaron los siguientes escenarios funcionales:
+
+- Se accedió al listado de destinos sostenibles desde el menú principal.
+
+- Se seleccionó un destino y se mostró correctamente su información completa.
+
+- e aplicaron filtros y se actualizó dinámicamente la lista según los criterios seleccionados.
+
+Checklist de pruebas ejecutadas:
+
+ - Acceso a listado desde home
+
+-  Visualización correcta de tarjetas de destino
+
+- Navegación hacia pantalla de detalle
+
+- Aplicación de filtros combinados
+
+- Tiempo de carga aceptable (< 2s)
 
 5.2.X.6. Services Documentation Evidence for Sprint Review.
 
 5.2.X.7. Software Deployment Evidence for Sprint Review.
 
 5.2.X.8. Team Collaboration Insights during Sprint.
+
+video microsoft:
+
+https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/EpDYxq6lPnVDnRkwCSvhwDIBwahMaLvTFXZoIcVTCDomng?e=waBoXE
 
 7/35
 
@@ -989,8 +1536,23 @@ Capítulo V: Product Implementation, Validation & Deployment
 
 5.4. Video About-the-Product.
 
+Evidencia de video:
+![video about the product](images/about-product.JPG)
+
+Video subido en Microsoft:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202211706_upc_edu_pe/EZpWEEtTuZhKpUpVZv2FmVABS-T8DCENQTuWI8UTOirsGg
+
+Video subido a youtube:
+
+https://youtu.be/P-pBcA5IrFQ
+
 Conclusiones
 Conclusiones y recomendaciones.
-Video About-the-Team.
+
 Bibliografía
+
 Anexos
+
+video exposición:
+https://upcedupe-my.sharepoint.com/:f:/g/personal/u202211706_upc_edu_pe/EliWDXPLesZDrorIQI_1rSoBA4dPWfhjkaiRjWtI9IbYqQ?e=pKGmJb
